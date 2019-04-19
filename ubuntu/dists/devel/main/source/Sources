@@ -1,0 +1,160 @@
+Package: gcc-defaults
+Binary: cpp, g++, g++-multilib, gobjc, gobjc-multilib, gobjc++, gobjc++-multilib, gfortran, gfortran-multilib, gccgo, gccgo-multilib, libgcj-common, libgcj-bc, gcj-jdk, gcj-jre-headless, gcj-jre, gcc, gcc-multilib, gdc, cpp-doc, gfortran-doc, gcc-doc
+Version: 1.124ubuntu7
+Section: devel
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Build-Depends: m4, debhelper (>= 5), dpkg-dev (>= 1.16.0~ubuntu4), gcc-4.8-base (>= 4.8.1-6~), lsb-release
+Build-Depends-Indep: ca-certificates, gcj-jdk, python (>= 2.6.6)
+Architecture: any all
+Standards-Version: 3.9.4
+Format: 1.0
+Directory: pool/main/g/gcc-defaults
+Files:
+ 7e43eaea86260c8e875d69c14ed8f67c 65259 gcc-defaults_1.124ubuntu7.tar.gz
+ 059fef1bfee53493109b4a743ec3f66a 2006 gcc-defaults_1.124ubuntu7.dsc
+Checksums-Sha1:
+ 463e2fefcc97c09577e555dce9a7f8401720ca48 65259 gcc-defaults_1.124ubuntu7.tar.gz
+ f963c3137b09f4d25da9f753d638bcbdcc5b36f3 2006 gcc-defaults_1.124ubuntu7.dsc
+Checksums-Sha256:
+ 112afbc3a1a67a06fb510c9697a315fee9251617f86ac367de2a26845a9eedd2 65259 gcc-defaults_1.124ubuntu7.tar.gz
+ 65ee15698fddd558f7c4dd5b7af82d276697a59c3f2f8c973fc7560653c7db1b 2006 gcc-defaults_1.124ubuntu7.dsc
+Uploaders: Matthias Klose <doko@debian.org>
+Python-Version: all
+Vcs-Svn: svn+ssh://svn.debian.org/svn/gcccvs/branches/sid/gcc-defaults
+Package-List: cpp deb interpreters optional
+ cpp-doc deb doc optional
+ g++ deb devel optional
+ g++-multilib deb devel optional
+ gcc deb devel optional
+ gcc-doc deb doc optional
+ gcc-multilib deb devel optional
+ gccgo deb devel optional
+ gccgo-multilib deb devel optional
+ gcj-jdk deb java optional
+ gcj-jre deb java optional
+ gcj-jre-headless deb java optional
+ gdc deb devel optional
+ gfortran deb devel optional
+ gfortran-doc deb doc optional
+ gfortran-multilib deb devel optional
+ gobjc deb devel optional
+ gobjc++ deb devel optional
+ gobjc++-multilib deb devel optional
+ gobjc-multilib deb devel optional
+ libgcj-bc deb java optional
+ libgcj-common deb java optional
+Vcs-Browser: http://svn.debian.org/viewsvn/gcccvs/branches/sid/gcc-defaults
+
+Package: mpfr4
+Binary: libmpfr4, libmpfr4-dbg, libmpfr-dev, libmpfr-doc
+Version: 3.1.3-1~14.04
+Section: math
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Build-Depends: debhelper (>= 9), libgmp-dev, dh-autoreconf
+Build-Depends-Indep: texinfo, texlive-latex-base
+Architecture: any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/m/mpfr4
+Files:
+ 6969398cd2fbc56a6af570b5273c56a9 1112096 mpfr4_3.1.3.orig.tar.xz
+ bdd95927955ff4c4f906005fe2e35fe3 9636 mpfr4_3.1.3-1~14.04.debian.tar.xz
+ 1683adfde4849000b9f8d67d678b3d0a 1989 mpfr4_3.1.3-1~14.04.dsc
+Checksums-Sha1:
+ 383303f9de5ebe055b03b94642b03465baf9e6c7 1112096 mpfr4_3.1.3.orig.tar.xz
+ e06ac9d8372c44ff40490f9bc1bda777fc2f9fdd 9636 mpfr4_3.1.3-1~14.04.debian.tar.xz
+ d03a9e85d0691819ba4094a87d0a549c64fb49a3 1989 mpfr4_3.1.3-1~14.04.dsc
+Checksums-Sha256:
+ 6835a08bd992c8257641791e9a6a2b35b02336c8de26d0a8577953747e514a16 1112096 mpfr4_3.1.3.orig.tar.xz
+ 1cc22c8e17efd7fb4295fc63e20be10401bf5999f427d5fd6c8d762fdb0cd656 9636 mpfr4_3.1.3-1~14.04.debian.tar.xz
+ 6524f210b3fb55ee7a9b33ba9368db62d4469a1321f4939e827a6d09b03cfa33 1989 mpfr4_3.1.3-1~14.04.dsc
+Homepage: http://www.mpfr.org/
+Uploaders: Matthias Klose <doko@debian.org>
+Package-List: libmpfr-dev deb libdevel optional arch=any
+ libmpfr-doc deb doc optional arch=all
+ libmpfr4 deb libs optional arch=any
+ libmpfr4-dbg deb debug extra arch=any
+
+Package: isl
+Binary: libisl-dev, libisl-dbg, libisl15
+Version: 0.15-3~14.04
+Section: libs
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Build-Depends: debhelper (>= 7.0.50~), dh-autoreconf, libgmp-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/i/isl
+Files:
+ 626d0452f3c9a36aeb3c225ff5e7c642 1406988 isl_0.15.orig.tar.xz
+ 11065b34c43617e0b69bbbb3588804f8 24544 isl_0.15-3~14.04.debian.tar.gz
+ 3e386d13420bbbf22fdafba8fbf8b063 1855 isl_0.15-3~14.04.dsc
+Checksums-Sha1:
+ b6f66c4eaf26f8ab697a3a853fe692256a027e9d 1406988 isl_0.15.orig.tar.xz
+ f2ec4facef46278bf80cfb14b6328d8388aab536 24544 isl_0.15-3~14.04.debian.tar.gz
+ ade2b6ae782f91415ffc7a77ffdf566867a416d5 1855 isl_0.15-3~14.04.dsc
+Checksums-Sha256:
+ 104a608839771d809558f5fd7533ca1a3b8ee5a667c5dcd9dc3499bf0a1522d5 1406988 isl_0.15.orig.tar.xz
+ 8dc21ec62d89beb1fd97011dfb80dbfc94b8e56513d4e82b5550b4a3008bd352 24544 isl_0.15-3~14.04.debian.tar.gz
+ 92ba71d090544fd58b84b5ad7e1ba9d1b861ae1997d3fcc8a690f95c85c6f023 1855 isl_0.15-3~14.04.dsc
+Homepage: http://freecode.com/projects/isl
+Uploaders: Matthias Klose <doko@debian.org>
+Package-List: libisl-dbg deb debug extra
+ libisl-dev deb libdevel optional
+ libisl15 deb libs optional
+
+Package: spacefm
+Binary: spacefm, spacefm-common, spacefm-gtk3
+Version: 1.0.0-1~ubuntu14.04.1
+Section: utils
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libgtk2.0-dev (>= 2.24), libcairo2-dev, libpango1.0-dev, libx11-dev, intltool, pkg-config, libglib2.0-dev, libstartup-notification0-dev, libdbus-1-dev, libgdk-pixbuf2.0-dev, libudev-dev, hicolor-icon-theme, libgtk-3-dev, libffmpegthumbnailer-dev
+Architecture: linux-any all
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/s/spacefm
+Files:
+ c3129645b75e3dca1b5df550b1186375 1338824 spacefm_1.0.0.orig.tar.xz
+ f07146a9ba2bf8f71beef8c095d1fd21 7420 spacefm_1.0.0-1~ubuntu14.04.1.debian.tar.xz
+ cb6d2eea6516cda6bf7a01c37fec5e3b 1900 spacefm_1.0.0-1~ubuntu14.04.1.dsc
+Checksums-Sha1:
+ 967a81778e3f5ce7cedd6771e136a39ce97e47e8 1338824 spacefm_1.0.0.orig.tar.xz
+ b53294e43b61ee6a6adc011e355c9458138fd629 7420 spacefm_1.0.0-1~ubuntu14.04.1.debian.tar.xz
+ dc1bae70b1c40af1a10cddeb3a0f07f26b0d6ee2 1900 spacefm_1.0.0-1~ubuntu14.04.1.dsc
+Checksums-Sha256:
+ dc3025bd31ea235afaa55cf609d376dc8c79e63dcd127389085758a9b26b97b6 1338824 spacefm_1.0.0.orig.tar.xz
+ 5dc09b73f58f805b07eb5a7797223a6bc00581c19a0e6bb86b82b68a4ab10fb0 7420 spacefm_1.0.0-1~ubuntu14.04.1.debian.tar.xz
+ 1f1cede715aaadb263d0c43379d9ea07fe5f1f6959303903eafcd938c48c6580 1900 spacefm_1.0.0-1~ubuntu14.04.1.dsc
+Homepage: http://ignorantguru.github.io/spacefm/
+Package-List: spacefm deb utils optional arch=linux-any
+ spacefm-common deb utils optional arch=all
+ spacefm-gtk3 deb utils optional arch=linux-any
+Vcs-Git: git://github.com/mati75/spacefm.git
+Vcs-Browser: https://github.com/mati75/spacefm.git
+
+Package: obsession
+Binary: obsession
+Version: 20140608-2~ubuntu14.04.1
+Section: x11
+Maintainer: Fabien Givors <f+debian@chezlefab.net>
+Build-Depends: debhelper (>= 9), libglib2.0-dev, libdbus-1-dev, libx11-dev, libgtk2.0-dev, valac
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/o/obsession
+Files:
+ 9358d136600a32e8ff8941b2ce2ffddc 54753 obsession_20140608.orig.tar.bz2
+ 014c004b7b51946a2bdb6edb30349ec0 2936 obsession_20140608-2~ubuntu14.04.1.debian.tar.xz
+ f6bd73047feeae247a6f18f56e35efcd 1563 obsession_20140608-2~ubuntu14.04.1.dsc
+Checksums-Sha1:
+ 9d6588fb40db7a9603a5f2fd985600372321c146 54753 obsession_20140608.orig.tar.bz2
+ 0b93098dcd3a79ec8c85990149905055994b4c07 2936 obsession_20140608-2~ubuntu14.04.1.debian.tar.xz
+ e3f9294f020765ef5a146794818aa72781f92371 1563 obsession_20140608-2~ubuntu14.04.1.dsc
+Checksums-Sha256:
+ 7c34e1b42fad20d5b89f63d3fcc55c39b01e3b2d1c48042c610697f7f7559ff3 54753 obsession_20140608.orig.tar.bz2
+ e9a9f76c20be43a64e339fc076e415162df6ee8b4a9023e3557878ddde68523d 2936 obsession_20140608-2~ubuntu14.04.1.debian.tar.xz
+ 62d929b16facae325fd095bcd99346f19e8d85dc3612ccb3c67059cbea1d38c2 1563 obsession_20140608-2~ubuntu14.04.1.dsc
+Homepage: https://bitbucket.org/fabriceT/obsession
+Vcs-Git: git://anonscm.debian.org/collab-maint/obsession.git
+Package-List: obsession deb x11 extra arch=any
+

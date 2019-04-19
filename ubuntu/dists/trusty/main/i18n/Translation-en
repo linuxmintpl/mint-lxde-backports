@@ -1,0 +1,919 @@
+Package: cpp
+Description-md5: aa450f6a454bdd6b0d8d9862a9240255
+Description-en: GNU C preprocessor (cpp)
+ The GNU C preprocessor is a macro processor that is used automatically
+ by the GNU C compiler to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ This is a dependency package providing the default GNU C preprocessor.
+
+Package: cpp-doc
+Description-md5: bedc30e6ac711bb807bb5f49569e8b35
+Description-en: Documentation for the GNU C preprocessor (cpp)
+ Documentation for the GNU C preprocessor in info format (dependency package).
+
+Package: fixincludes
+Description-md5: 4eec63ec6a45894436866732b96c2698
+Description-en: Fix non-ANSI header files
+ FixIncludes was created to fix non-ANSI system header files. Many
+ system manufacturers supply proprietary headers that are not ANSI compliant.
+ The GNU compilers cannot compile non-ANSI headers. Consequently, the
+ FixIncludes shell script was written to fix the header files.
+ .
+ Not all packages with header files are installed on the system, when the
+ package is built, so we make fixincludes available at build time of other
+ packages, such that checking tools like lintian can make use of it.
+
+Package: g++
+Description-md5: 4d44b18774ae5123b7c3f70d940cf655
+Description-en: GNU C++ compiler
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+ .
+ This is a dependency package providing the default GNU C++ compiler.
+
+Package: gcc
+Description-md5: c7efd71c7c651a9ac8b2adf36b137790
+Description-en: GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ This is a dependency package providing the default GNU C compiler.
+
+Package: gcc-doc
+Description-md5: af77f0c56a32a74fc629f4cd7c91d2da
+Description-en: Documentation for the GNU C compilers (gcc, gobjc, g++)
+ Documentation for the GNU compilers in info format (dependency package).
+
+Package: gobjc
+Description-md5: 8eb5a7695a9f4935cb3126a66df29405
+Description-en: GNU Objective-C compiler
+ This is the GNU Objective-C compiler, which compiles Objective-C on platforms
+ supported by the gcc compiler. It uses the gcc backend to generate optimized
+ code.
+ .
+ This is a dependency package providing the default GNU Objective-C compiler.
+
+Package: libgcc1
+Description-md5: bbd60d723e97d8e06c04228ee4c76f10
+Description-en: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+
+Package: libgcj-common
+Description-md5: 2f28079fd19fff52fbee4f6fbfa23148
+Description-en: Java runtime library (common files)
+ This package contains files shared by Classpath and libgcj libraries.
+
+Package: libmpfr-dev
+Description-md5: a2580b68a7c6f1fcadeefc6b17102b32
+Description-en: multiple precision floating-point computation developers tools
+ This development package provides the header files and the symbolic
+ links to allow compilation and linking of programs that use the libraries
+ provided in the libmpfr4 package.
+ .
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+
+Package: libstdc++6
+Description-md5: 724ab84919e0e220afb960e36463914d
+Description-en: GNU Standard C++ Library v3
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+
+Package: lib32gcc1
+Description-md5: a31c67d540f86442c895f2663cb4d5c9
+Description-en: GCC support library (32 bit Version)
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+
+Package: lib32stdc++6
+Description-md5: 2124b81bef171d19a7c047c58ae7058f
+Description-en: GNU Standard C++ Library v3 (32 bit Version)
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+
+Package: gfortran
+Description-md5: 19814cb032299ba2188b0196ece62ba3
+Description-en: GNU Fortran 95 compiler
+ This is the GNU Fortran 95 compiler, which compiles Fortran 95 on platforms
+ supported by the gcc compiler. It uses the gcc backend to generate optimized
+ code.
+ .
+ This is a dependency package providing the default GNU Fortran 95 compiler.
+
+Package: gfortran-doc
+Description-md5: 6855bbffb1ede02166da131963e7fd83
+Description-en: Documentation for the GNU Fortran compiler (gfortran)
+ Documentation for the GNU Fortran compiler in info format (dependency package).
+
+Package: libgcj-doc
+Description-md5: f5a770b1765898ba56a3f1f8c749ab2d
+Description-en: libgcj API documentation and example programs
+ Autogenerated documentation describing the API of the libgcj library.
+ Sources and precompiled example programs from the Classpath library.
+
+Package: gobjc++
+Description-md5: db23ebaaaeb19bd162f9458eb00d25ef
+Description-en: GNU Objective-C++ compiler
+ This is the GNU Objective-C++ compiler, which compiles
+ Objective-C++ on platforms supported by the gcc compiler. It uses the
+ gcc backend to generate optimized code.
+ .
+ This is a dependency package providing the default GNU Objective-C++ compiler.
+
+Package: libgcj-bc
+Description-md5: 92531142394600eb3406f5fc89716c34
+Description-en: Link time only library for use with gcj
+ A fake library that is used at link time only.  It ensures that
+ binaries built with the BC-ABI link against a constant SONAME.
+ This way, BC-ABI binaries continue to work if the SONAME underlying
+ libgcj.so changes.
+
+Package: gcc-multilib
+Description-md5: a92261e9624fa45dc5948edfd86a1054
+Description-en: GNU C compiler (multilib files)
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: g++-multilib
+Description-md5: 9df28aeef12fea2f44664b1d4c3bac30
+Description-en: GNU C++ compiler (multilib files)
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gobjc-multilib
+Description-md5: 59c2ce9fb72818296f35716da917939b
+Description-en: GNU Objective-C compiler (multilib files)
+ This is the GNU Objective-C compiler, which compiles Objective-C on
+ platforms supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gobjc++-multilib
+Description-md5: 5c340f9fbcd708e936e728cdf2610d40
+Description-en: GNU Objective-C++ compiler (multilib files)
+ This is the GNU Objective-C++ compiler, which compiles Objective-C++ on
+ platforms supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gfortran-multilib
+Description-md5: de3f0253a1d23ed0c3ee4e62e170756b
+Description-en: GNU Fortran 95 compiler (multilib files)
+ This is the GNU Fortran compiler, which compiles Fortran 95 on platforms
+ supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: libgomp1
+Description-md5: 9651123458dd1bf3c162dfb6a6292ff4
+Description-en: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: lib32gomp1
+Description-md5: e631a6bc5701a04082ff06d4907faecf
+Description-en: GCC OpenMP (GOMP) support library (32bit)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: libgfortran3
+Description-md5: bb4b9e7dbbaa67e95441936718b11f39
+Description-en: Runtime library for GNU Fortran applications
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: lib32gfortran3
+Description-md5: 6b1141cbf03c78b07b329d00c2e7823f
+Description-en: Runtime library for GNU Fortran applications (32bit)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: libgcc1-dbg
+Description-md5: d2281f8d5a2b7dae7c362df43affcb03
+Description-en: GCC support library (debug symbols)
+ Debug symbols for the GCC support library.
+
+Package: libgomp1-dbg
+Description-md5: 7e2cdd49ce630cb7e2347d7fe5ca5677
+Description-en: GCC OpenMP (GOMP) support library (debug symbols)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: libgfortran3-dbg
+Description-md5: 8e6e17da8d0b42fc976ade7330c11a20
+Description-en: Runtime library for GNU Fortran applications (debug symbols)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: lib32gcc1-dbg
+Description-md5: d2281f8d5a2b7dae7c362df43affcb03
+Description-en: GCC support library (debug symbols)
+ Debug symbols for the GCC support library.
+
+Package: lib32gomp1-dbg
+Description-md5: 91ff2112f352a83cd9b7528de9b7a7c4
+Description-en: GCC OpenMP (GOMP) support library (32 bit debug symbols)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: lib32gfortran3-dbg
+Description-md5: f1c6c70ede14acca0d8908ffcb0e809d
+Description-en: Runtime library for GNU Fortran applications (32 bit debug symbols)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: gdc
+Description-md5: 27f6160b2c7f699452e12cc82b2f85f5
+Description-en: D compiler (language version 2), based on the GCC backend
+ This is a dependency package providing the default D compiler.
+ Per policy, all packages that contain D sources must use this package
+ in their Build-Depends line.
+ .
+ This compiler supports D language version 2.
+
+Package: libmpfr-doc
+Description-md5: f055e9915a337223583fe5e3ec7c0b3c
+Description-en: multiple precision floating-point computation documentation
+ This package provides documentation for the multiple-precision floating-point
+ computation library MPFR.
+ .
+ The documentation is available as html and PDF.
+
+Package: gcj-jre-headless
+Description-md5: b8134c13a4a7d7c52148d94bce341fa5
+Description-en: Java runtime environment using GIJ/Classpath (headless version)
+ GIJ is a Java bytecode interpreter, not limited to interpreting bytecode.
+ It includes a class loader which can dynamically load shared objects, so
+ it is possible to give it the name of a class which has been compiled and
+ put into a shared library on the class path.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-RTE-like interface to the GIJ/GCJ tool set,
+ limited to the headless tools and libraries.
+
+Package: gcj-jre
+Description-md5: 33bb6e364710093f6308dbe21c570d27
+Description-en: Java runtime environment using GIJ/Classpath
+ GIJ is a Java bytecode interpreter, not limited to interpreting bytecode.
+ It includes a class loader which can dynamically load shared objects, so
+ it is possible to give it the name of a class which has been compiled and
+ put into a shared library on the class path.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-RTE-like interface to the GIJ/GCJ tool set.
+
+Package: gcj-jdk
+Description-md5: 851163a88ca4f075c45ce19de1ec3bd4
+Description-en: gcj and Classpath development tools for Java(TM)
+ GCJ is a front end to the GCC compiler which can natively compile both
+ Java(tm) source and bytecode files. The compiler can also generate class
+ files. Other java development tools from Classpath are included in this
+ package.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-SDK-like interface to the GCJ tool set.
+
+Package: libmpfr4
+Description-md5: 97d2af3ed9ac83dc3fdaf77a6b27a294
+Description-en: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+
+Package: libquadmath0
+Description-md5: fb375c278b15a5774cef34cf9570ecc9
+Description-en: GCC Quad-Precision Math Library
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype. The library is used to provide on such
+ targets the REAL(16) type in the GNU Fortran compiler.
+
+Package: libquadmath0-dbg
+Description-md5: 51e0d32e2b63fbbb4bd76acf3872936c
+Description-en: GCC Quad-Precision Math Library (debug symbols)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype.
+
+Package: lib32quadmath0
+Description-md5: d7a03dac94565e412ed600a16f543d54
+Description-en: GCC Quad-Precision Math Library (32bit)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype. The library is used to provide on such
+ targets the REAL(16) type in the GNU Fortran compiler.
+
+Package: lib32quadmath0-dbg
+Description-md5: 2408724947bd37356dc923703c9b320e
+Description-en: GCC Quad-Precision Math Library (32 bit debug symbols)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype.
+
+Package: libmpfr4-dbg
+Description-md5: e9bf4350e1b14ba8723e22bbca538dab
+Description-en: multiple precision floating-point computation (debug symbols)
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+ .
+ This package contains the debugging symbols for libmpfr4.
+
+Package: gccgo
+Description-md5: 9d336d49adc1ff59921be0a9229b7c40
+Description-en: Go compiler, based on the GCC backend
+ This is the GNU Go compiler, which compiles Go on platforms supported by
+ the gcc compiler. It uses the gcc backend to generate optimized code.
+ .
+ This is a dependency package providing the default GNU Go compiler.
+
+Package: gccgo-multilib
+Description-md5: 3fac7a274eeb083fb89c2e26e58d453b
+Description-en: Go compiler, based on the GCC backend (multilib files)
+ This is the GNU Go compiler, which compiles Go on platforms supported by
+ the gcc compiler. It uses the gcc backend to generate optimized code.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: libisl-dev
+Description-md5: 9330fbca4463124a77a29e9568838474
+Description-en: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the development files.
+
+Package: libisl-dbg
+Description-md5: eb308232fbc7715c4bcb245dd94db7e7
+Description-en: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains debug files.
+
+Package: libitm1
+Description-md5: 353dc4001cbe783e9f0a27c29f5dc3b5
+Description-en: GNU Transactional Memory Library
+ GNU Transactional Memory Library (libitm) provides transaction support for
+ accesses to the memory of a process, enabling easy-to-use synchronization of
+ accesses to shared memory by several threads.
+
+Package: libitm1-dbg
+Description-md5: 41462d1cfcabe3bd47bcd28353e14894
+Description-en: GNU Transactional Memory Library (debug symbols)
+ GNU Transactional Memory Library (libitm) provides transaction support for
+ accesses to the memory of a process, enabling easy-to-use synchronization of
+ accesses to shared memory by several threads.
+
+Package: libobjc4
+Description-md5: 30a0a695b3f5d643272b0bb547f0578c
+Description-en: Runtime library for GNU Objective-C applications
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: libobjc4-dbg
+Description-md5: b444a22ecf71ec41ec6388bbebb0e347
+Description-en: Runtime library for GNU Objective-C applications (debug symbols)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: lib32itm1
+Description-md5: dab7174f3ba5f3317b7d12b57522f05a
+Description-en: GNU Transactional Memory Library (32bit)
+ GNU Transactional Memory Library (libitm) provides transaction support for
+ accesses to the memory of a process, enabling easy-to-use synchronization of
+ accesses to shared memory by several threads.
+
+Package: lib32itm1-dbg
+Description-md5: 7e27c82a201c45d900c2bb92b43713b5
+Description-en: GNU Transactional Memory Library (32 bit debug symbols)
+ GNU Transactional Memory Library (libitm) provides transaction support for
+ accesses to the memory of a process, enabling easy-to-use synchronization of
+ accesses to shared memory by several threads.
+
+Package: lib32objc4
+Description-md5: cdc9d0be22d98fa7275d3376afaddcc0
+Description-en: Runtime library for GNU Objective-C applications (32bit)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: lib32objc4-dbg
+Description-md5: 06d620c114d0d3329b9b2be2112a0894
+Description-en: Runtime library for GNU Objective-C applications (32 bit debug symbols)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: spacefm
+Description-md5: be9e222cede7f5b0d1c564e23ad1031e
+Description-en: Multi-panel tabbed file manager - GTK2 version
+ SpaceFM is a multi-panel tabbed file and desktop manager for Linux with
+ built-in VFS, udev or HAL-based device manager, customizable menu system
+ and bash integration.
+ .
+ A descendant of PCManFM, SpaceFM's aims are to be bugfixed, efficient
+ (mainly C), hugely customisable (change and add to the GUI as you go
+ with Design Mode), powerful without scaring off newer users (due to
+ customisation), independent of particular distributions and desktop
+ environments, and device management featureful enough to replace the
+ various udisks-based *kits when used alongside udevil.
+ .
+ Other highlights include optional desktop management, smart queuing
+ of file operations, user plugins and the ability to carry out specific
+ commands as root.
+ .
+ Please install spacefm-gtk3 instead if you want to stick with GTK+3.
+
+Package: libx32gcc1
+Description-md5: 23c4abc6ef9d972b6f047316897bf30d
+Description-en: GCC support library (x32)
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+
+Package: libx32gcc1-dbg
+Description-md5: d2281f8d5a2b7dae7c362df43affcb03
+Description-en: GCC support library (debug symbols)
+ Debug symbols for the GCC support library.
+
+Package: libx32quadmath0
+Description-md5: 514c6a5cffd4febce8121f2d08419504
+Description-en: GCC Quad-Precision Math Library (x32)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype. The library is used to provide on such
+ targets the REAL(16) type in the GNU Fortran compiler.
+
+Package: libx32quadmath0-dbg
+Description-md5: d1cced9ca62d9dde3650384b57532901
+Description-en: GCC Quad-Precision Math Library (x32 debug symbols)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype.
+
+Package: libx32gomp1
+Description-md5: 1388436f97e9425feb598766343a05b7
+Description-en: GCC OpenMP (GOMP) support library (x32)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: libx32gomp1-dbg
+Description-md5: 7f819ff9ae10ec2d6646003e0204dc5f
+Description-en: GCC OpenMP (GOMP) support library (x32 debug symbols)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+
+Package: libx32itm1
+Description-md5: 60c3549c857ee22163b3a82b265880de
+Description-en: GNU Transactional Memory Library (x32)
+ This manual documents the usage and internals of libitm. It provides
+ transaction support for accesses to the memory of a process, enabling
+ easy-to-use synchronization of accesses to shared memory by several threads.
+
+Package: libx32itm1-dbg
+Description-md5: 139a395a1e47ba8b13f22f43588f31ae
+Description-en: GNU Transactional Memory Library (x32 debug symbols)
+ This manual documents the usage and internals of libitm. It provides
+ transaction support for accesses to the memory of a process, enabling
+ easy-to-use synchronization of accesses to shared memory by several threads.
+
+Package: libx32objc4
+Description-md5: e253306fc795d9cc9e7c2acac0d2ad1b
+Description-en: Runtime library for GNU Objective-C applications (x32)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: libx32objc4-dbg
+Description-md5: 15ac2bbe50562f8e9e528e6d5f6f1024
+Description-en: Runtime library for GNU Objective-C applications (x32 debug symbols)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: libx32stdc++6
+Description-md5: f336833aedca4cda1d9923ce79172164
+Description-en: GNU Standard C++ Library v3 (x32)
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+
+Package: libx32gfortran3
+Description-md5: 3c011e928f9c344ce5ade56af0ec77b2
+Description-en: Runtime library for GNU Fortran applications (x32)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: libx32gfortran3-dbg
+Description-md5: 10f29f1b5242ebba520971f18415252b
+Description-en: Runtime library for GNU Fortran applications (x32 debug symbols)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: libatomic1
+Description-md5: 16938852526fc26bdbcb46c18435ed08
+Description-en: support library providing __atomic built-in functions
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: libatomic1-dbg
+Description-md5: 26d76486cdd4f1973b721c8f322e9e61
+Description-en: support library providing __atomic built-in functions (debug symbols)
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: lib32atomic1
+Description-md5: 4b9cd7e59833a54167ec848b4c3d9e48
+Description-en: support library providing __atomic built-in functions (32bit)
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: lib32atomic1-dbg
+Description-md5: 865d3c01985d4c1517371f8f439ecadf
+Description-en: support library providing __atomic built-in functions (32 bit debug symbols)
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: libx32atomic1
+Description-md5: 17429d2d39217f0a95507decf171c10f
+Description-en: support library providing __atomic built-in functions (x32)
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: libx32atomic1-dbg
+Description-md5: a1d046f7c7bf1745f37238262b4d1081
+Description-en: support library providing __atomic built-in functions (x32 debug symbols)
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: libtsan0
+Description-md5: 750c144e4cc79bcf76c58f43c882ff70
+Description-en: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
+ ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
+ The Linux and Mac versions are based on Valgrind.
+
+Package: libtsan0-dbg
+Description-md5: 12e218524cfc4fca62857d3e660e0018
+Description-en: ThreadSanitizer -- a Valgrind-based detector of data races (debug symbols)
+ ThreadSanitizer (Tsan) is a data race detector for C/C++ programs.
+ The Linux and Mac versions are based on Valgrind.
+
+Package: spacefm-gtk3
+Description-md5: f2c573502cee17440115c318f4119a3f
+Description-en: Multi-panel tabbed file manager - GTK3 version
+ SpaceFM is a multi-panel tabbed file and desktop manager for Linux with
+ built-in VFS, udev or HAL-based device manager, customizable menu system
+ and bash integration.
+ .
+ A descendant of PCManFM, SpaceFM's aims are to be bugfixed, efficient
+ (mainly C), hugely customisable (change and add to the GUI as you go
+ with Design Mode), powerful without scaring off newer users (due to
+ customisation), independent of particular distributions and desktop
+ environments, and device management featureful enough to replace the
+ various udisks-based *kits when used alongside udevil.
+ .
+ Other highlights include optional desktop management, smart queuing
+ of file operations, user plugins and the ability to carry out specific
+ commands as root.
+
+Package: spacefm-common
+Description-md5: 573d3dd8399a963e00973f505c5054e7
+Description-en: Multi-panel tabbed file manager - common files
+ SpaceFM is a multi-panel tabbed file and desktop manager for Linux with
+ built-in VFS, udev or HAL-based device manager, customizable menu system
+ and bash integration.
+ .
+ This package contains files used by both the GTK+2 (spacefm) and
+ GTK+3 (spacefm-gtk3) versions.
+
+Package: liblsan0
+Description-md5: fd77936d8cda7d6af8bc33d6f395c678
+Description-en: LeakSanitizer -- a memory leak detector (runtime)
+ LeakSanitizer (Lsan) is a memory leak detector which is integrated
+ into AddressSanitizer.
+
+Package: liblsan0-dbg
+Description-md5: 542bbc8ec886b845fc7ef771c238206f
+Description-en: LeakSanitizer -- a memory leak detector (debug symbols)
+ LeakSanitizer (Lsan) is a memory leak detector which is integrated
+ into AddressSanitizer.
+
+Package: libubsan0
+Description-md5: 0d50b6d1808d18442db720f04627b846
+Description-en: UBSan -- undefined behaviour sanitizer (runtime)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: libubsan0-dbg
+Description-md5: 659cb3d2af748e8f726465d97392ba98
+Description-en: UBSan -- undefined behaviour sanitizer (debug symbols)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: lib32ubsan0
+Description-md5: 00c57d4ccf298e90fae6bd6acdfad7ab
+Description-en: UBSan -- undefined behaviour sanitizer (32bit)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: lib32ubsan0-dbg
+Description-md5: 9f7135992c8b7133983b2e7952f67e04
+Description-en: UBSan -- undefined behaviour sanitizer (32 bit debug symbols)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: libx32ubsan0
+Description-md5: 1e3c22c974d49dfa0d90d25dc725cf74
+Description-en: UBSan -- undefined behaviour sanitizer (x32)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: libx32ubsan0-dbg
+Description-md5: d6c2f65b1df2a03b9c7b4e20d596d17e
+Description-en: UBSan -- undefined behaviour sanitizer (x32 debug symbols)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: libcilkrts5
+Description-md5: ee1eb21d65e9b0336fe6bb9239b54288
+Description-en: Intel Cilk Plus language extensions (runtime)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+
+Package: libcilkrts5-dbg
+Description-md5: b47b64f33229d8794aaceff5f0bba7d7
+Description-en: Intel Cilk Plus language extensions (debug symbols)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+
+Package: lib32cilkrts5
+Description-md5: cfc0a1e0e2c2fe8e45700724c806a987
+Description-en: Intel Cilk Plus language extensions (32bit)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+
+Package: lib32cilkrts5-dbg
+Description-md5: 302371f2bf006ba155500edad2c90bb0
+Description-en: Intel Cilk Plus language extensions (32 bit debug symbols)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+
+Package: libx32cilkrts5
+Description-md5: be40389da3c3f2332e113477a1f68923
+Description-en: Intel Cilk Plus language extensions (x32)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+
+Package: libx32cilkrts5-dbg
+Description-md5: 0b84023b44919fc8802e01e3945fa7d3
+Description-en: Intel Cilk Plus language extensions (x32 debug symbols)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+
+Package: gcc-4.9-source
+Description-md5: cb00049993a8c14b73bb041c050eb8c5
+Description-en: Source of the GNU Compiler Collection
+ This package contains the sources and patches which are needed to
+ build the GNU Compiler Collection (GCC).
+
+Package: cpp-4.9-doc
+Description-md5: 22a9ba311e91d8d744a9e4df2030d2bf
+Description-en: Documentation for the GNU C preprocessor (cpp)
+ Documentation for the GNU C preprocessor in info format.
+
+Package: gccgo-4.9-doc
+Description-md5: 76326180b2469131aa9547f46e5b3105
+Description-en: Documentation for the GNU Go compiler (gccgo)
+ Documentation for the GNU Go compiler in info format.
+
+Package: gcj-4.9-jre-lib
+Description-md5: c6c8d4fc017cdac424e562b583372f96
+Description-en: Java runtime library for use with gcj (jar files)
+ This is the jar file that goes along with the gcj front end to gcc.
+
+Package: gcj-4.9-source
+Description-md5: 4c55da0bb9881014d9bba36bde1b8806
+Description-en: GCJ java sources for use in IDEs like eclipse and netbeans
+ These are the java source files packaged as a zip file for use in development
+ environments like eclipse and netbeans.
+
+Package: libstdc++-4.9-doc
+Description-md5: 1a4b88b8d9f96dfb2ac2be1049b4db01
+Description-en: GNU Standard C++ Library v3 (documentation files)
+ This package contains documentation files for the GNU stdc++ library.
+ .
+ One set is the distribution documentation, the other set is the
+ source documentation including a namespace list, class hierarchy,
+ alphabetical list, compound list, file list, namespace members,
+ compound members and file members.
+
+Package: gfortran-4.9-doc
+Description-md5: 17a01a9ada93e104865a01e6615e2401
+Description-en: Documentation for the GNU Fortran compiler (gfortran)
+ Documentation for the GNU Fortran compiler in info format.
+
+Package: gcc-4.9-doc
+Description-md5: bf320d6d806b62ff03b567626d36b1fb
+Description-en: Documentation for the GNU compilers (gcc, gobjc, g++)
+ Documentation for the GNU compilers in info format.
+
+Package: gcc-4.9-locales
+Description-md5: eb5e72cb380341d4ed2ad2d24c34f31d
+Description-en: GCC, the GNU compiler collection (native language support files)
+ Native language support for GCC. Lets GCC speak your language,
+ if translations are available.
+ .
+ Please do NOT submit bug reports in other languages than "C".
+ Always reset your language settings to use the "C" locales.
+
+Package: lib32lsan0
+Description-md5: 52a43090bbc827c21745756d96dedd88
+Description-en: LeakSanitizer -- a memory leak detector (32bit)
+ LeakSanitizer (Lsan) is a memory leak detector which is integrated
+ into AddressSanitizer.
+
+Package: lib32lsan0-dbg
+Description-md5: 175b2d13cc98b45009de43a6e5844d30
+Description-en: LeakSanitizer -- a memory leak detector (32 bit debug symbols)
+ LeakSanitizer (Lsan) is a memory leak detector which is integrated
+ into AddressSanitizer.
+
+Package: libx32lsan0
+Description-md5: 4d2c1632eadcc210b58e56903d658577
+Description-en: LeakSanitizer -- a memory leak detector (x32)
+ LeakSanitizer (Lsan) is a memory leak detector which is integrated
+ into AddressSanitizer.
+
+Package: libx32lsan0-dbg
+Description-md5: fe73506107cfca24912b8a6d8b468a1f
+Description-en: LeakSanitizer -- a memory leak detector (x32 debug symbols)
+ LeakSanitizer (Lsan) is a memory leak detector which is integrated
+ into AddressSanitizer.
+
+Package: obsession
+Description-md5: 2c7f2f2658bee69312bf5d51ea07433c
+Description-en: Session management helpers for lightweight desktop environments
+ This package provides the following tools:
+ * obsession-logout displays a dialog where you can choose if you want to quit
+ the session, power off, suspend or hibernate the computer.
+ * obsession-exit: this is the command line version of obsession-logout.
+ * xdg-autostart start automatically programs defined in /etc/xdg/autostart and
+ ~/.config/autostart.
+
+Package: libisl15
+Description-md5: b718cf54a9174f62d55d1d78f6212d22
+Description-en: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the runtime library.
+
+Package: lib64gcc1
+Description-md5: 3fa6e907907011d66479852df2d160b2
+Description-en: GCC support library (64bit)
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+
+Package: lib64stdc++6
+Description-md5: 0b7bd88ae533336258d0ca3201397c0f
+Description-en: GNU Standard C++ Library v3 (64bit)
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+
+Package: lib64gomp1
+Description-md5: a0950cb11ce700192ac4d8252bba5f9e
+Description-en: GCC OpenMP (GOMP) support library (64bit)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: lib64gfortran3
+Description-md5: 46b19e07ae6f07ea3757b2684cf21c0d
+Description-en: Runtime library for GNU Fortran applications (64bit)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: lib64gcc1-dbg
+Description-md5: d2281f8d5a2b7dae7c362df43affcb03
+Description-en: GCC support library (debug symbols)
+ Debug symbols for the GCC support library.
+
+Package: lib64gomp1-dbg
+Description-md5: 882676390c496a4f303ad530c4fe700c
+Description-en: GCC OpenMP (GOMP) support library (64bit debug symbols)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran compilers
+ in the GNU Compiler Collection.
+
+Package: lib64gfortran3-dbg
+Description-md5: c63c0c3ab768ea3fa5c30e961c50e5b6
+Description-en: Runtime library for GNU Fortran applications (64bit debug symbols)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: lib64quadmath0
+Description-md5: 49289451e79bd744581e76fbb05eb94d
+Description-en: GCC Quad-Precision Math Library  (64bit)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype. The library is used to provide on such
+ targets the REAL(16) type in the GNU Fortran compiler.
+
+Package: lib64quadmath0-dbg
+Description-md5: bbb06b0ff2dba5c1dd20fe845b0f4d8f
+Description-en: GCC Quad-Precision Math Library  (64bit debug symbols)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype.
+
+Package: lib64itm1
+Description-md5: fcc38020a0be9787c7556be2d025d1a4
+Description-en: GNU Transactional Memory Library (64bit)
+ GNU Transactional Memory Library (libitm) provides transaction support for
+ accesses to the memory of a process, enabling easy-to-use synchronization of
+ accesses to shared memory by several threads.
+
+Package: lib64itm1-dbg
+Description-md5: 2d248b06e644dd15948c161044b826f5
+Description-en: GNU Transactional Memory Library (64bit debug symbols)
+ GNU Transactional Memory Library (libitm) provides transaction support for
+ accesses to the memory of a process, enabling easy-to-use synchronization of
+ accesses to shared memory by several threads.
+
+Package: lib64objc4
+Description-md5: ed6abd85fb9be4df45f054e758ab70d5
+Description-en: Runtime library for GNU Objective-C applications (64bit)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: lib64objc4-dbg
+Description-md5: 7cd2b0138394ee9bd1a02f3b57b33245
+Description-en: Runtime library for GNU Objective-C applications (64 bit debug symbols)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: lib64atomic1
+Description-md5: dcde910e366c584abcb0cd438bd4f06e
+Description-en: support library providing __atomic built-in functions (64bit)
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: lib64atomic1-dbg
+Description-md5: 3180ccc043db555a40bffc6fe5928e4c
+Description-en: support library providing __atomic built-in functions (64bit debug symbols)
+ library providing __atomic built-in functions. When an atomic call cannot
+ be turned into lock-free instructions, GCC will make calls into this library.
+
+Package: lib64ubsan0
+Description-md5: c22f6718422baad4c7aa40c7b8c9e6ac
+Description-en: UBSan -- undefined behaviour sanitizer (64bit)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: lib64ubsan0-dbg
+Description-md5: 3d8b12b4978389626f226568afb59f5c
+Description-en: UBSan -- undefined behaviour sanitizer (64bit debug symbols)
+ UndefinedBehaviorSanitizer can be enabled via -fsanitize=undefined.
+ Various computations will be instrumented to detect undefined behavior
+ at runtime. Available for C and C++.
+
+Package: lib64cilkrts5
+Description-md5: a6436c3face9969968e3cd3f40d78d2e
+Description-en: Intel Cilk Plus language extensions (64bit)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+
+Package: lib64cilkrts5-dbg
+Description-md5: 667d7b52012a028e733a5cdc05f59d8a
+Description-en: Intel Cilk Plus language extensions (64bit debug symbols)
+ Intel Cilk Plus is an extension to the C and C++ languages to support
+ data and task parallelism.
+

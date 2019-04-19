@@ -1,0 +1,241 @@
+Package: libgcj-common
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: java
+Installed-Size: 271
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: all
+Version: 1:4.8.2-1ubuntu7
+Replaces: java-gcj-compat (<< 1.0.65-8), java-gcj-compat-dev (<< 1.0.80-2)
+Depends: python:any
+Conflicts: classpath (<= 0.04-4)
+Filename: pool/main/g/gcc-defaults/libgcj-common_4.8.2-1ubuntu7_all.deb
+Size: 159572
+MD5sum: 414dbcb8bef4296e8b89d8e8243258fb
+SHA1: 1506942529346071e7fc288dc6cb6095206315de
+SHA256: 799d70a1922203028bd738e50fb836489a4ee3911e0c9170e8b0835744c941d9
+Description: Java runtime library (common files)
+Description-md5: 2f28079fd19fff52fbee4f6fbfa23148
+Multi-Arch: foreign
+
+Package: libgcj-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 429791
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Provides: classpath-doc
+Depends: gcc-4.9-base (>= 4.9)
+Enhances: libgcj15-dev
+Filename: pool/main/g/gcc-4.9/libgcj-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 18818596
+MD5sum: 9fe940ca5bdffae425e8d927b1642d9c
+SHA1: 7d3919fc33f8ce9906e9c14f9cdf6424282255a9
+SHA256: 3a016e6021db62c201a9ddd32d139294789441661fe473c170b3f055e11be7cb
+Description: libgcj API documentation and example programs
+Description-md5: f5a770b1765898ba56a3f1f8c749ab2d
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libmpfr-doc
+Source: mpfr4
+Priority: optional
+Section: doc
+Installed-Size: 1373
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: all
+Version: 3.1.3-1~14.04
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: pool/main/m/mpfr4/libmpfr-doc_3.1.3-1~14.04_all.deb
+Size: 930658
+MD5sum: 9114962dd79418805b1eaee7ee7d3251
+SHA1: 6725a76237e419657789235f696b83ac49b29a95
+SHA256: 7534212e2dfac94fe17925f52040934a065f2715235df094807d0f751b1f4b83
+Description: multiple precision floating-point computation documentation
+Description-md5: f055e9915a337223583fe5e3ec7c0b3c
+
+Package: spacefm-common
+Source: spacefm
+Priority: optional
+Section: utils
+Installed-Size: 3341
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Architecture: all
+Version: 1.0.0-1~ubuntu14.04.1
+Recommends: spacefm | spacefm-gtk3, hicolor-icon-theme | faenza-icon-theme
+Replaces: spacefm (<< 0.9)
+Filename: pool/main/s/spacefm/spacefm-common_1.0.0-1~ubuntu14.04.1_all.deb
+Size: 619818
+MD5sum: 185fe27ef389ccb97624691002b37938
+SHA1: 47c90bdfe7913f1d0e0009fd4f77f05fc9d8af3b
+SHA256: d8d8b30c8e63e7501035f36f9e9b21337b91ad6ac3e7a8e2728b0156f3e4248e
+Description: Multi-panel tabbed file manager - common files
+Description-md5: 573d3dd8399a963e00973f505c5054e7
+
+Package: gcc-4.9-source
+Source: gcc-4.9
+Priority: optional
+Section: devel
+Installed-Size: 74894
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: make, autoconf2.64, quilt, patchutils, gawk
+Filename: pool/main/g/gcc-4.9/gcc-4.9-source_4.9.2-0ubuntu1~14.04_all.deb
+Size: 72416778
+MD5sum: 5cd0c25861c8d2c3703a0ecc406ac8ec
+SHA1: 2b7ae4695ece36ea367948a375bd614ed21b3425
+SHA256: 715c7f329f54e1918d19e4e2c97b7a895330dd3f09af224ffc0a517fe4bfcf60
+Description: Source of the GNU Compiler Collection
+Description-md5: cb00049993a8c14b73bb041c050eb8c5
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: cpp-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 554
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), dpkg (>= 1.15.4) | install-info
+Filename: pool/main/g/gcc-4.9/cpp-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 177208
+MD5sum: 08ff1dc310e743e30f2afa935a92ca74
+SHA1: 980268d33338ac8d1111eb0c602b267e5ce22069
+SHA256: 291185761ded29573c3f47fa6df60c5beac56ba314e51a5e2fa35a45d6e927d4
+Description: Documentation for the GNU C preprocessor (cpp)
+Description-md5: 22a9ba311e91d8d744a9e4df2030d2bf
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gccgo-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 147
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), dpkg (>= 1.15.4) | install-info
+Filename: pool/main/g/gcc-4.9/gccgo-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 48782
+MD5sum: 162e42eee8ec19f2622d6cc4c13a3c01
+SHA1: 4479050c5400e7cb5bb9a79fe746789e16441205
+SHA256: 467acbdd262fc0836b8c8958852eeb83d2e75ee7a961b2d2c11e5e3d60ef0777
+Description: Documentation for the GNU Go compiler (gccgo)
+Description-md5: 76326180b2469131aa9547f46e5b3105
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcj-4.9-jre-lib
+Source: gcc-4.9
+Priority: optional
+Section: java
+Installed-Size: 11193
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), libgcj15 (>= 4.9)
+Filename: pool/main/g/gcc-4.9/gcj-4.9-jre-lib_4.9.2-0ubuntu1~14.04_all.deb
+Size: 10350068
+MD5sum: ea45a12e54daebe7d50e70a3f7b5d181
+SHA1: 1c99d86239d304acfcdf0b0e1f876e1c8997586b
+SHA256: e2e8c9a55ddfc7fda2a580181d376ef4f40d590c70ed6aebf27668f31f801a74
+Description: Java runtime library for use with gcj (jar files)
+Description-md5: c6c8d4fc017cdac424e562b583372f96
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcj-4.9-source
+Source: gcc-4.9
+Priority: optional
+Section: java
+Installed-Size: 12667
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), gcj-4.9-jdk (>= 4.9)
+Filename: pool/main/g/gcc-4.9/gcj-4.9-source_4.9.2-0ubuntu1~14.04_all.deb
+Size: 11662536
+MD5sum: 5205700b4d6f1843ca2dbe01e7a57f9c
+SHA1: a0903f7a67f0e6282438e84e645d012748d8f623
+SHA256: 0e088219ada77aec40d6d968c5c71462e0c08a6babd08d62fbcab333ee4ae6bc
+Description: GCJ java sources for use in IDEs like eclipse and netbeans
+Description-md5: 4c55da0bb9881014d9bba36bde1b8806
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libstdc++-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 98967
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9)
+Conflicts: libstdc++-4.8-doc, libstdc++5-3.3-doc, libstdc++5-doc, libstdc++6-4.0-doc, libstdc++6-4.1-doc, libstdc++6-4.2-doc, libstdc++6-4.3-doc, libstdc++6-4.4-doc, libstdc++6-4.5-doc, libstdc++6-4.6-doc, libstdc++6-4.7-doc, libstdc++6-doc
+Filename: pool/main/g/gcc-4.9/libstdc++-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 9794408
+MD5sum: be8b7a1a995d75a43e63fd119956b674
+SHA1: 687e28ea8c057f02ba43615e919551dbc2c10e9e
+SHA256: 82f532999e92f8b1febaf31729ce826ea9a49ab3865ffb43a1fa95b93d8fd1f9
+Description: GNU Standard C++ Library v3 (documentation files)
+Description-md5: 1a4b88b8d9f96dfb2ac2be1049b4db01
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gfortran-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 1420
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), dpkg (>= 1.15.4) | install-info
+Filename: pool/main/g/gcc-4.9/gfortran-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 306328
+MD5sum: 2a9231956e9d886ac5b566e6ccedc20e
+SHA1: 16f9af750dd9e61f61196d4322f8da283e6ec716
+SHA256: 15ef1533c8b86919cf6e5d837d669fd79288a957309120fe6a1ab039895b7893
+Description: Documentation for the GNU Fortran compiler (gfortran)
+Description-md5: 17a01a9ada93e104865a01e6615e2401
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 8980
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Replaces: gcc (<= 2.7.2.3-4.3), gcc-docs (<< 2.95.2)
+Depends: gcc-4.9-base (>= 4.9), dpkg (>= 1.15.4) | install-info
+Conflicts: gcc-docs (<< 2.95.2)
+Filename: pool/main/g/gcc-4.9/gcc-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 2169904
+MD5sum: 2a33ed2872912f0d68b4513f631c5d8e
+SHA1: 7c9679cb8e94954ba5e45d934306b4a7e0fb867c
+SHA256: d2dd47fecef3534fc45b34bdac08bca3a9a7f635c0ee556f81c637565f95913d
+Description: Documentation for the GNU compilers (gcc, gobjc, g++)
+Description-md5: bf320d6d806b62ff03b567626d36b1fb
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-4.9-locales
+Source: gcc-4.9
+Priority: optional
+Section: devel
+Installed-Size: 9174
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Recommends: gcc-4.9 (>= 4.9)
+Depends: gcc-4.9-base (>= 4.9), cpp-4.9 (>= 4.9)
+Filename: pool/main/g/gcc-4.9/gcc-4.9-locales_4.9.2-0ubuntu1~14.04_all.deb
+Size: 1443426
+MD5sum: 160d92fb3697fc4bc845d2b6c0292169
+SHA1: f1e598660b24ee9af6c56f2ef18ae0c470fdee56
+SHA256: 5ca41f5a82cbe1189dd792fb1a898e4abfb0424db04698cc261ec9e9ccca67c4
+Description: GCC, the GNU compiler collection (native language support files)
+Description-md5: eb5e72cb380341d4ed2ad2d24c34f31d
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+

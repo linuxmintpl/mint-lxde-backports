@@ -1,0 +1,2035 @@
+Package: cpp
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: interpreters
+Installed-Size: 85
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Suggests: cpp-doc
+Depends: cpp-4.9 (>= 4.9)
+Conflicts: cpp-doc (<< 1:2.95.3)
+Filename: pool/main/g/gcc-defaults/cpp_4.9-1ubuntu7_amd64.deb
+Size: 38846
+MD5sum: 030f44362711103cfdda977b06e2b44a
+SHA1: 2b1ba93de13d590c5c4d2104284f9edb5627a691
+SHA256: 6464f61a1988e814401819d995ce952481bb8db36b92a90d68b5adcb29e66893
+Description: GNU C preprocessor (cpp)
+Description-md5: aa450f6a454bdd6b0d8d9862a9240255
+Multi-Arch: allowed
+
+Package: cpp-doc
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: doc
+Installed-Size: 43
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Suggests: cpp (>= 4:4.9-1ubuntu7)
+Depends: cpp-4.9-doc (>= 4.9)
+Filename: pool/main/g/gcc-defaults/cpp-doc_4.9-1ubuntu7_amd64.deb
+Size: 14850
+MD5sum: 8b0440fdbfa7ca26b8cf47f545748ff5
+SHA1: a8313f95fb36d156c44c08b458affb2d05571ad4
+SHA256: 5216c00320aa90fe7f607b4e39eb8a6ed0035c7ba4e6907e829a522e021606f3
+Description: Documentation for the GNU C preprocessor (cpp)
+Description-md5: bedc30e6ac711bb807bb5f49569e8b35
+
+Package: fixincludes
+Source: gcc-4.9 (4.9.2-0ubuntu1~14.04)
+Priority: optional
+Section: devel
+Installed-Size: 243
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1:4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), gcc-4.9 (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.14)
+Filename: pool/main/g/gcc-4.9/fixincludes_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 58348
+MD5sum: 64d84c10e570b90c8ba0d97729e9d312
+SHA1: 5398185ea20eb6567c1eb55ca0188a3391d382fe
+SHA256: 7f3019745a6467ef3e09c861bd7dbd90431b936189cef9ca2a19e05eb30ccb6b
+Description: Fix non-ANSI header files
+Description-md5: 4eec63ec6a45894436866732b96c2698
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: g++
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 34
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Suggests: g++-multilib
+Provides: c++-compiler
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc (>= 4:4.9-1ubuntu7), g++-4.9 (>= 4.9), gcc-4.9 (>= 4.9)
+Filename: pool/main/g/gcc-defaults/g++_4.9-1ubuntu7_amd64.deb
+Size: 1460
+MD5sum: ff4f50eef574617afedb5c46a7e5f0f0
+SHA1: a24f52303edf8514d187205c48647158ac6aa9cc
+SHA256: 4277b85096aff8bd215598ec38391e7a2fcd463c4ab6fc3bd42a4bb554782366
+Description: GNU C++ compiler
+Description-md5: 4d44b18774ae5123b7c3f70d940cf655
+
+Package: gcc
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 41
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Recommends: libc6-dev | libc-dev
+Suggests: gcc-multilib, make, manpages-dev, autoconf, automake1.9, libtool, flex, bison, gdb, gcc-doc
+Provides: c-compiler
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc-4.9 (>= 4.9)
+Conflicts: gcc-doc (<< 1:2.95.3)
+Filename: pool/main/g/gcc-defaults/gcc_4.9-1ubuntu7_amd64.deb
+Size: 5026
+MD5sum: 50964bcd0ce1bc8a765e63330041ee9b
+SHA1: ec1287f65abe1278a359eb8c4b74cc523883167a
+SHA256: dc25bb08a0bcbdd7a325d85d34991004a1f287a53d8e7d8231f786fdf24b1ec2
+Description: GNU C compiler
+Description-md5: c7efd71c7c651a9ac8b2adf36b137790
+
+Package: gcc-doc
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: doc
+Installed-Size: 43
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Suggests: gcc (>= 4:4.9-1ubuntu7)
+Depends: gcc-4.9-doc (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gcc-doc_4.9-1ubuntu7_amd64.deb
+Size: 14892
+MD5sum: 5645636c1fd30c09e34d8cb45c50a907
+SHA1: def27174c4edc432b12deb1fe4182c885a476e63
+SHA256: a5949b250c22b8bd9dd3ba5210ba708addfcc016ccb995d275555ad1b4af7d2e
+Description: Documentation for the GNU C compilers (gcc, gobjc, g++)
+Description-md5: af77f0c56a32a74fc629f4cd7c91d2da
+
+Package: gobjc
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 21
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Suggests: gobjc-multilib
+Provides: objc-compiler
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc (>= 4:4.9-1ubuntu7), gobjc-4.9 (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gobjc_4.9-1ubuntu7_amd64.deb
+Size: 908
+MD5sum: b35d0faed9a3aab5083c005e781b5b7f
+SHA1: 7807dddef533f29bfeec555a14317449cfbad96f
+SHA256: 902754212dfcd136b2cdde1f1b2b96fd9e0e24ff36409921c42317aeec07b0f6
+Description: GNU Objective-C compiler
+Description-md5: 8eb5a7695a9f4935cb3126a66df29405
+
+Package: libgcc1
+Source: gcc-4.9 (4.9.2-0ubuntu1~14.04)
+Priority: required
+Section: libs
+Installed-Size: 131
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1:4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Filename: pool/main/g/gcc-4.9/libgcc1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 39202
+MD5sum: 00a6cdae4de08f228883f1f4af979d1e
+SHA1: 9702a2ebb5093cd5397092ace0969c7de400a61c
+SHA256: 2aa16b152789cae8f58fde4fe5bb15689d22aaba8bf40b7a5e77b746a7a48d2c
+Description: GCC support library
+Description-md5: bbd60d723e97d8e06c04228ee4c76f10
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libgcj-common
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: java
+Installed-Size: 271
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: all
+Version: 1:4.8.2-1ubuntu7
+Replaces: java-gcj-compat (<< 1.0.65-8), java-gcj-compat-dev (<< 1.0.80-2)
+Depends: python:any
+Conflicts: classpath (<= 0.04-4)
+Filename: pool/main/g/gcc-defaults/libgcj-common_4.8.2-1ubuntu7_all.deb
+Size: 159572
+MD5sum: 414dbcb8bef4296e8b89d8e8243258fb
+SHA1: 1506942529346071e7fc288dc6cb6095206315de
+SHA256: 799d70a1922203028bd738e50fb836489a4ee3911e0c9170e8b0835744c941d9
+Description: Java runtime library (common files)
+Description-md5: 2f28079fd19fff52fbee4f6fbfa23148
+Multi-Arch: foreign
+
+Package: libmpfr-dev
+Source: mpfr4
+Priority: optional
+Section: libdevel
+Installed-Size: 1019
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 3.1.3-1~14.04
+Replaces: libgmp3-dev (<< 4.1.4-3)
+Suggests: libmpfr-doc
+Depends: libgmp-dev, libmpfr4 (= 3.1.3-1~14.04)
+Breaks: libgmp3-dev (<< 4.1.4-3)
+Filename: pool/main/m/mpfr4/libmpfr-dev_3.1.3-1~14.04_amd64.deb
+Size: 192316
+MD5sum: 4c497b01e5faed5e0f53989093beca80
+SHA1: 00c4985d79cdf9cd0965c27d64352acd6f5c7509
+SHA256: 4e1720573677e40050cf3fd66b0d6b24cef615afefc96c7be1e20899f216d94c
+Description: multiple precision floating-point computation developers tools
+Description-md5: a2580b68a7c6f1fcadeefc6b17102b32
+Multi-Arch: same
+
+Package: libstdc++6
+Source: gcc-4.9
+Priority: important
+Section: libs
+Installed-Size: 1323
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Replaces: libstdc++6-4.9-dbg (<< 4.9.0-3)
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.18), libgcc1 (>= 1:4.1.1)
+Conflicts: scim (<< 1.4.2-1)
+Pre-Depends: multiarch-support
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Filename: pool/main/g/gcc-4.9/libstdc++6_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 268472
+MD5sum: 7552aa99fd057d3acf0a6be9a9232603
+SHA1: d4ffbc11514ffe14eb9a0628d9388e2c1fbb934e
+SHA256: dc936af8b9bf81f6fc83cd6656e7a178c91e10cfa30ed98d28eac936d9a02dbc
+Description: GNU Standard C++ Library v3
+Description-md5: 724ab84919e0e220afb960e36463914d
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32gcc1
+Source: gcc-4.9 (4.9.2-0ubuntu1~14.04)
+Priority: optional
+Section: libs
+Installed-Size: 142
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1:4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-i386 (>= 2.2.4)
+Filename: pool/main/g/gcc-4.9/lib32gcc1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 47866
+MD5sum: 22cc4cdadfad5896971db077acf866e7
+SHA1: 0ae458ed7687d61813a336e2b1dbf4dcad9a156e
+SHA256: aa21787432b0acbac64786507702c7edf51c6169b1ecf70a2818f52df4053afe
+Description: GCC support library (32 bit Version)
+Description-md5: a31c67d540f86442c895f2663cb4d5c9
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32stdc++6
+Source: gcc-4.9
+Priority: extra
+Section: libs
+Installed-Size: 1212
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.1.1), libc6-i386 (>= 2.18)
+Filename: pool/main/g/gcc-4.9/lib32stdc++6_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 275414
+MD5sum: 03c1408927e06271d17d7b143ad2ed25
+SHA1: b2863ab0ea4510cfb8ffbeb27cbb08417b9f12c6
+SHA256: 4413283651616f96b743a54e2ed1b342c739f5fb0c70b3ac9e0cde698fbdc349
+Description: GNU Standard C++ Library v3 (32 bit Version)
+Description-md5: 2124b81bef171d19a7c047c58ae7058f
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gfortran
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 33
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Suggests: gfortran-multilib, gfortran-doc
+Provides: fortran-compiler
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc (>= 4:4.9-1ubuntu7), gfortran-4.9 (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gfortran_4.9-1ubuntu7_amd64.deb
+Size: 1208
+MD5sum: afa19b686d44591020986ac7d3357491
+SHA1: 62236584bc66478e0dd405062cdf03d177d7ab58
+SHA256: 641df28a911f1fae77b2eb98bfb6b50d6da47f01bc3e40dc8fd09f612c97523c
+Description: GNU Fortran 95 compiler
+Description-md5: 19814cb032299ba2188b0196ece62ba3
+
+Package: gfortran-doc
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: doc
+Installed-Size: 47
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Suggests: gfortran (>= 4:4.9-1ubuntu7)
+Depends: gfortran-4.9-doc (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gfortran-doc_4.9-1ubuntu7_amd64.deb
+Size: 14656
+MD5sum: 3925cb95f0269fb118fe1a61ab7d8e44
+SHA1: 7bd3a683e774c60b43ad80592c54398a0a92fff6
+SHA256: 9bc278b105e227d74b4a06572daefc65d495a6723182d32204b83f0cd16c49c6
+Description: Documentation for the GNU Fortran compiler (gfortran)
+Description-md5: 6855bbffb1ede02166da131963e7fd83
+
+Package: libgcj-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 429791
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Provides: classpath-doc
+Depends: gcc-4.9-base (>= 4.9)
+Enhances: libgcj15-dev
+Filename: pool/main/g/gcc-4.9/libgcj-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 18818596
+MD5sum: 9fe940ca5bdffae425e8d927b1642d9c
+SHA1: 7d3919fc33f8ce9906e9c14f9cdf6424282255a9
+SHA256: 3a016e6021db62c201a9ddd32d139294789441661fe473c170b3f055e11be7cb
+Description: libgcj API documentation and example programs
+Description-md5: f5a770b1765898ba56a3f1f8c749ab2d
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gobjc++
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 21
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Recommends: g++ (>= 4:4.9-1ubuntu7), gobjc (>= 4:4.9-1ubuntu7)
+Suggests: gobjc++-multilib
+Provides: objc++-compiler
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc (>= 4:4.9-1ubuntu7), gobjc++-4.9 (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gobjc++_4.9-1ubuntu7_amd64.deb
+Size: 930
+MD5sum: 9134856c55fd5237287b9751a49c763b
+SHA1: 760a03dd5ba71735360a4581f2388d469e5c487f
+SHA256: 0e52203a45e1fb0a56765edb07b586f14f40d082aeecfbbe8ca34c51c7fd714d
+Description: GNU Objective-C++ compiler
+Description-md5: db23ebaaaeb19bd162f9458eb00d25ef
+
+Package: libgcj-bc
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: java
+Installed-Size: 37
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4.9-1ubuntu7
+Depends: libgcj-common (>= 1:4.8.2-1ubuntu7), libgcj15 (>= 4.9)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-defaults/libgcj-bc_4.9-1ubuntu7_amd64.deb
+Size: 1242
+MD5sum: 9a3ea32a1cd8793fe6024bd602606127
+SHA1: 402a8cab69f2723321139a2140811a2b426ea54b
+SHA256: b0e48ada559bcdd3d619c104087fc1371aa91c47fb629409279cc947ef9028d9
+Description: Link time only library for use with gcj
+Description-md5: 92531142394600eb3406f5fc89716c34
+Multi-Arch: same
+
+Package: gcc-multilib
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 25
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Replaces: gcc (<< 4.6.1-2ubuntu5)
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc (>= 4:4.9-1ubuntu7), gcc-4.9-multilib (>= 4.9), linux-libc-dev (>= 3.0.0-2)
+Pre-Depends: linux-libc-dev (>= 2.6.38-8.42)
+Filename: pool/main/g/gcc-defaults/gcc-multilib_4.9-1ubuntu7_amd64.deb
+Size: 984
+MD5sum: 135d13c12008f1fcc66a31ee5e852256
+SHA1: d4016ae99016f8535abb5258486eea2d5a3aa5ef
+SHA256: 9e201f21ffdf460e8f28d4d921ff72ca2a64796489f13c6861a192aa20d55b08
+Description: GNU C compiler (multilib files)
+Description-md5: a92261e9624fa45dc5948edfd86a1054
+
+Package: g++-multilib
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 21
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc-multilib (>= 4:4.9-1ubuntu7), g++ (>= 4:4.9-1ubuntu7), g++-4.9-multilib (>= 4.9)
+Filename: pool/main/g/gcc-defaults/g++-multilib_4.9-1ubuntu7_amd64.deb
+Size: 886
+MD5sum: 85fa73bc66bc800ff2b3bfc56a0977b5
+SHA1: a79571592ca268eb5d2a81b8d540ce73c18360ee
+SHA256: 5b86593e11365ce05033c1e6b39ecec6266c2a4f513716207b7d540ed4391a57
+Description: GNU C++ compiler (multilib files)
+Description-md5: 9df28aeef12fea2f44664b1d4c3bac30
+
+Package: gobjc-multilib
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 21
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc-multilib (>= 4:4.9-1ubuntu7), gobjc (>= 4:4.9-1ubuntu7), gobjc-4.9-multilib (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gobjc-multilib_4.9-1ubuntu7_amd64.deb
+Size: 902
+MD5sum: 6724b9c626c8050d360396d756df659a
+SHA1: c520505ba02fce61f09d996a9a429877d8b548b5
+SHA256: bfdc50b4944c6697442c862b79a2a9f4386584340e7105a4c4ff62911870fafa
+Description: GNU Objective-C compiler (multilib files)
+Description-md5: 59c2ce9fb72818296f35716da917939b
+
+Package: gobjc++-multilib
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 21
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Depends: cpp (>= 4:4.9-1ubuntu7), gobjc-multilib (>= 4:4.9-1ubuntu7), gobjc++ (>= 4:4.9-1ubuntu7), gobjc++-4.9-multilib (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gobjc++-multilib_4.9-1ubuntu7_amd64.deb
+Size: 910
+MD5sum: 356dd789fa74a62a6ca78e9c69c48415
+SHA1: 4e007e8e71fabe76fb00611013cc95c64c08d7e9
+SHA256: ab0393153995de3954ac387d08858ad8910a529531524ddc23fd2360de223174
+Description: GNU Objective-C++ compiler (multilib files)
+Description-md5: 5c340f9fbcd708e936e728cdf2610d40
+
+Package: gfortran-multilib
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 21
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc-multilib (>= 4:4.9-1ubuntu7), gfortran (>= 4:4.9-1ubuntu7), gfortran-4.9-multilib (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gfortran-multilib_4.9-1ubuntu7_amd64.deb
+Size: 906
+MD5sum: 955d7c6215a0ea34a4699c0107eff6a6
+SHA1: e40fcfac16d2b87c38859cc780c250b15bad6664
+SHA256: 9238799447895186ceaef96f78afbddc50ddb848a392cc1990cdcce854c865f8
+Description: GNU Fortran 95 compiler (multilib files)
+Description-md5: de3f0253a1d23ed0c3ee4e62e170756b
+
+Package: libgomp1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 126
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.17)
+Pre-Depends: multiarch-support
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Filename: pool/main/g/gcc-4.9/libgomp1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 37644
+MD5sum: de44c1d3d4feae2e9dd57d692722b6b8
+SHA1: f70a45e749b1c45074a9c654b92c3bbb1270760c
+SHA256: 90948c75d2ac13a9459c8df21a1aef15c86f57ad46318bf9e5b26a3fc8b28c35
+Description: GCC OpenMP (GOMP) support library
+Description-md5: 9651123458dd1bf3c162dfb6a6292ff4
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32gomp1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 125
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-i386 (>= 2.17)
+Filename: pool/main/g/gcc-4.9/lib32gomp1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 40294
+MD5sum: 85f8fe2a45562c233e0c6d91bf4a0c06
+SHA1: 7731f2db00b6efa013e0bfca4b7e057c65534cf6
+SHA256: 30845ddb6a36dca3a81ba330f330a2a153bf98844cc58ff255733d0f78e5d972
+Description: GCC OpenMP (GOMP) support library (32bit)
+Description-md5: e631a6bc5701a04082ff06d4907faecf
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libgfortran3
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 1225
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.17), libgcc1 (>= 1:4.4.0), libquadmath0 (>= 4.6)
+Pre-Depends: multiarch-support
+Breaks: gcc-4.3 (<< 4.3.6-1), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2)
+Filename: pool/main/g/gcc-4.9/libgfortran3_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 253784
+MD5sum: 5a4ffa74b9ead7f0bf936d58ec58baee
+SHA1: fa9e5b506f5435302d1668aa0140e791ab984b9e
+SHA256: aebf09266fe49c718b044b2357fb3f8e9ea3d226ab2de6c4791993f59bfdd2e7
+Description: Runtime library for GNU Fortran applications
+Description-md5: bb4b9e7dbbaa67e95441936718b11f39
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32gfortran3
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 1145
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.4.0), lib32quadmath0 (>= 4.6), libc6-i386 (>= 2.17)
+Filename: pool/main/g/gcc-4.9/lib32gfortran3_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 235614
+MD5sum: 5015cd91b65f7d2b4f7493f20d2a908c
+SHA1: 4b7bd1f992a600591e2e67f63c41cb098eecd02d
+SHA256: 026221fa4f335b3e0de297497e6c6293efdeb2fcdbab9c2476d6b205979b6b7d
+Description: Runtime library for GNU Fortran applications (32bit)
+Description-md5: 6b1141cbf03c78b07b329d00c2e7823f
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libgcc1-dbg
+Source: gcc-4.9 (4.9.2-0ubuntu1~14.04)
+Priority: extra
+Section: debug
+Installed-Size: 485
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1:4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libgcc1 (= 1:4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libgcc1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 86252
+MD5sum: eecc4187d26f3732b7ae5eaedd977053
+SHA1: 39a1dfb4b355c60232c6055c1494b48fda0c3222
+SHA256: 74c74eca479459d66a6202f2a63d5992d2908ce73ccba2a788c6080aa32a0e87
+Description: GCC support library (debug symbols)
+Description-md5: d2281f8d5a2b7dae7c362df43affcb03
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libgomp1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 424
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libgomp1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libgomp1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 88476
+MD5sum: efd920fabc290275768c05f0e0f282da
+SHA1: a75894ee72cc63e5cfdd55d8e77578fcb3508a3c
+SHA256: 5ec6ab00a3b3369a63073026fa2aa7f99e1e8022d62322fd9740d088abdbe13a
+Description: GCC OpenMP (GOMP) support library (debug symbols)
+Description-md5: 7e2cdd49ce630cb7e2347d7fe5ca5677
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libgfortran3-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 4273
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libgfortran3 (= 4.9.2-0ubuntu1~14.04), libgcc1-dbg (>= 1:4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libgfortran3-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 620444
+MD5sum: e423da659e54681609c9e29ca4caf376
+SHA1: 20f447fec1ce74436643c215e99e36088f8aa610
+SHA256: 5c0d1ab77d6bc9a4053f41c8bf1b39abb63d1cd2a10ea621d38b8b3fc480147f
+Description: Runtime library for GNU Fortran applications (debug symbols)
+Description-md5: 8e6e17da8d0b42fc976ade7330c11a20
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32gcc1-dbg
+Source: gcc-4.9 (4.9.2-0ubuntu1~14.04)
+Priority: extra
+Section: debug
+Installed-Size: 386
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1:4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (= 1:4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32gcc1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 84998
+MD5sum: 2b4a1290847e0afb64766804d33346e6
+SHA1: edd0ad87d61fcd574bd9e87b971b7866de6b1183
+SHA256: 6f47c210b2fe3a1b8f8e9f6d5be733ceebb5f1ea901f9889af9925e025ea3ba4
+Description: GCC support library (debug symbols)
+Description-md5: d2281f8d5a2b7dae7c362df43affcb03
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32gomp1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 332
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gomp1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32gomp1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 86404
+MD5sum: 8c699a85f3b8a880197e7869cc6c0577
+SHA1: 8f0bb1fc53fa58b686699e7b0d1d32443a364e5e
+SHA256: 10abffe8d8e17e8d8faeedc8b766f3751f3ad5d9752d25b13cf8c0d344c5d7da
+Description: GCC OpenMP (GOMP) support library (32 bit debug symbols)
+Description-md5: 91ff2112f352a83cd9b7528de9b7a7c4
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32gfortran3-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 2752
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gfortran3 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32gfortran3-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 484584
+MD5sum: 6f224b39dd9a549fbf1495cdf87a999c
+SHA1: 8c574b30f082fbb0d79a988b576d620500ff03bb
+SHA256: ab067234f4e72465ede31b44d828f8aa5e7affe091aa718c454c3812fd2a485a
+Description: Runtime library for GNU Fortran applications (32 bit debug symbols)
+Description-md5: f1c6c70ede14acca0d8908ffcb0e809d
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gdc
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 57
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4.8.2-1ubuntu7
+Replaces: gdc-4.1 (<< 0.25-4.1.2-18), gdc-4.2 (<< 0.25-4.2.2-7), gdc-4.3 (<< 1:1.043-4.3.4-1)
+Depends: gdc-4.8 (>= 4.8.2-5~)
+Filename: pool/main/g/gcc-defaults/gdc_4.8.2-1ubuntu7_amd64.deb
+Size: 17388
+MD5sum: ab70158a401f44f155e1c5c109fc273c
+SHA1: 3ee858fb7b316f29a925e6a501c2f8ebb5d48023
+SHA256: e5115249851fff628a7b97d6ab9892fe7caa7ba4cecde7b58ab4dea30ea87fd7
+Description: D compiler (language version 2), based on the GCC backend
+Description-md5: 27f6160b2c7f699452e12cc82b2f85f5
+
+Package: libmpfr-doc
+Source: mpfr4
+Priority: optional
+Section: doc
+Installed-Size: 1373
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: all
+Version: 3.1.3-1~14.04
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: pool/main/m/mpfr4/libmpfr-doc_3.1.3-1~14.04_all.deb
+Size: 930658
+MD5sum: 9114962dd79418805b1eaee7ee7d3251
+SHA1: 6725a76237e419657789235f696b83ac49b29a95
+SHA256: 7534212e2dfac94fe17925f52040934a065f2715235df094807d0f751b1f4b83
+Description: multiple precision floating-point computation documentation
+Description-md5: f055e9915a337223583fe5e3ec7c0b3c
+
+Package: gcj-jre-headless
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: java
+Installed-Size: 41
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Replaces: java-gcj-compat-headless (<< 1.0.80-6)
+Suggests: gcj-jdk
+Provides: java-gcj-compat-headless, java-runtime-headless, java-virtual-machine, java1-runtime-headless, java2-runtime-headless, java5-runtime-headless
+Depends: libgcj-common (>= 1:4.8.2-1ubuntu7), gcj-4.9-jre-headless (>= 4.9)
+Conflicts: gij (<< 4:4.4.0-2), java-gcj-compat-headless (<< 1.0.80-6)
+Filename: pool/main/g/gcc-defaults/gcj-jre-headless_4.9-1ubuntu7_amd64.deb
+Size: 1526
+MD5sum: 2eec2d5323afc2ba5f24b4a24b8de87f
+SHA1: 5362eff6583d21a34ea661b39373909a57af8a2e
+SHA256: c09a7fa9fc60fbd6ac5283c4682ca87a8dd2d9a27def0300428a1c8b486c768d
+Description: Java runtime environment using GIJ/Classpath (headless version)
+Description-md5: b8134c13a4a7d7c52148d94bce341fa5
+
+Package: gcj-jre
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: java
+Installed-Size: 21
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Provides: java-gcj-compat, java-runtime, java1-runtime, java2-runtime, java5-runtime
+Depends: libgcj-common (>= 1:4.8.2-1ubuntu7), gcj-jre-headless (>= 4:4.9-1ubuntu7), gcj-4.9-jre (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gcj-jre_4.9-1ubuntu7_amd64.deb
+Size: 1082
+MD5sum: 057bc7951f25a9942d1d519366f44fcc
+SHA1: 4bd56a1e71659e92658d850685ba3cae236d2c26
+SHA256: 3864c7802812ae113aae3df729456323fbc7b59932814c9330a057d0e4acb39c
+Description: Java runtime environment using GIJ/Classpath
+Description-md5: 33bb6e364710093f6308dbe21c570d27
+
+Package: gcj-jdk
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: java
+Installed-Size: 59
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Replaces: gjdoc, java-gcj-compat-dev (<< 1.0.80-2)
+Provides: gjdoc, java-compiler, java-gcj-compat-dev, java-sdk, java2-sdk, java5-sdk
+Depends: libgcj-common (>= 1:4.8.2-1ubuntu7), gcj-jre (>= 4:4.9-1ubuntu7), gcj-4.9-jdk (>= 4.9)
+Conflicts: classpath-common (<= 2:0.97.2-1.1), gcj (<< 4:4.4.0-2), gjdoc, java-gcj-compat-dev (<< 1.0.80-2)
+Filename: pool/main/g/gcc-defaults/gcj-jdk_4.9-1ubuntu7_amd64.deb
+Size: 6126
+MD5sum: 7a4e9c5a61c12358aeb2dc41a581b261
+SHA1: 04d2ef72a27c488abd5878d5eec47b153dd79306
+SHA256: 28900b51efa85c8148a2b601da98667544f775565006e15090d63defb81ce39b
+Description: gcj and Classpath development tools for Java(TM)
+Description-md5: 851163a88ca4f075c45ce19de1ec3bd4
+
+Package: libmpfr4
+Source: mpfr4
+Priority: optional
+Section: libs
+Installed-Size: 787
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 3.1.3-1~14.04
+Depends: libc6 (>= 2.14), libgmp10
+Pre-Depends: multiarch-support
+Breaks: libgmp3 (<< 4.1.4-3)
+Filename: pool/main/m/mpfr4/libmpfr4_3.1.3-1~14.04_amd64.deb
+Size: 532012
+MD5sum: 0c6111760b5c1d1825f0bee1328ba4c5
+SHA1: c43ff18e58752c757321259e2d2e607f7bb6802b
+SHA256: 81e9d9b895ef16bc4f0d17be636702c5622e44b2a97b65e31fcc273ba7cfcdbb
+Description: multiple precision floating-point computation
+Description-md5: 97d2af3ed9ac83dc3fdaf77a6b27a294
+Multi-Arch: same
+
+Package: libquadmath0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 278
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-4.9/libquadmath0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 129298
+MD5sum: 6947d3b5043546af923ae947b8b09f75
+SHA1: 9c4a48e1a94ea54e6f710c32a5944b058e9e5e74
+SHA256: f22528ef619a633e3073212af288f0f5f956de41fddd0fd4e1bebcc6d1daae7d
+Description: GCC Quad-Precision Math Library
+Description-md5: fb375c278b15a5774cef34cf9570ecc9
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libquadmath0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 722
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libquadmath0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libquadmath0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 148412
+MD5sum: 5cdd4be2c3b1b7b293836155d58d211e
+SHA1: 1667c223aa835704c8a955e69d3ad2ff82a0743e
+SHA256: 47086ec0e85b85f55f0cc47fa9b2d77304eccb449084fffd99f6501a02d8d0ba
+Description: GCC Quad-Precision Math Library (debug symbols)
+Description-md5: 51e0d32e2b63fbbb4bd76acf3872936c
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32quadmath0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 597
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-i386 (>= 2.10)
+Filename: pool/main/g/gcc-4.9/lib32quadmath0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 194398
+MD5sum: 5d27897c8ecf62cc5f45d279c8756112
+SHA1: c2882be6339164a5474c2fc0c7bdf8457d0738ec
+SHA256: 7f94b5ff0b37bef0ebf42e4d45903b0eb993ae3d99bde1e7858583027b8c7e9e
+Description: GCC Quad-Precision Math Library (32bit)
+Description-md5: d7a03dac94565e412ed600a16f543d54
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32quadmath0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 612
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32quadmath0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32quadmath0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 156184
+MD5sum: aa41bd362eedac1ffe12b842794534e9
+SHA1: 72ab5d12701de64505005d86485aa37830a86e5e
+SHA256: a8dfd6050bf3f5be471f898e81a2cce3759bfe10df743fab5d804395fde184f7
+Description: GCC Quad-Precision Math Library (32 bit debug symbols)
+Description-md5: 2408724947bd37356dc923703c9b320e
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libmpfr4-dbg
+Source: mpfr4
+Priority: extra
+Section: debug
+Installed-Size: 465
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 3.1.3-1~14.04
+Depends: libmpfr4 (= 3.1.3-1~14.04)
+Filename: pool/main/m/mpfr4/libmpfr4-dbg_3.1.3-1~14.04_amd64.deb
+Size: 406672
+MD5sum: 09d96c82c2ca9e9e03dcdc0de003edba
+SHA1: 9e4f7af1f6d486de1cdc956cb2a8e788a8d982c3
+SHA256: 5d32b6076e2c62af581c3b52d99c7904ee446de4998465c020974aba59f80beb
+Description: multiple precision floating-point computation (debug symbols)
+Description-md5: e9bf4350e1b14ba8723e22bbca538dab
+Multi-Arch: same
+
+Package: gccgo
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 33
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Suggests: gccgo-multilib
+Provides: go-compiler
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc (>= 4:4.9-1ubuntu7), gccgo-4.9 (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gccgo_4.9-1ubuntu7_amd64.deb
+Size: 1020
+MD5sum: 1f707618be591563c90a848111b2da01
+SHA1: 008b5e72b4aef216e1747d7ad22e79644e3f9b0a
+SHA256: d5235bbb3f2747948234fbeab53ec0f08128b333dcf32732aa6ce336c85aa77a
+Description: Go compiler, based on the GCC backend
+Description-md5: 9d336d49adc1ff59921be0a9229b7c40
+
+Package: gccgo-multilib
+Source: gcc-defaults (1.124ubuntu7)
+Priority: optional
+Section: devel
+Installed-Size: 21
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 4:4.9-1ubuntu7
+Depends: cpp (>= 4:4.9-1ubuntu7), gcc-multilib (>= 4:4.9-1ubuntu7), gccgo (>= 4:4.9-1ubuntu7), gccgo-4.9-multilib (>= 4.9)
+Filename: pool/main/g/gcc-defaults/gccgo-multilib_4.9-1ubuntu7_amd64.deb
+Size: 930
+MD5sum: 278095dd67b8897435c948c0f29df939
+SHA1: 81c9010cf93972602a4ae4e96ce05f9d4dcdf46f
+SHA256: aa31ffc8b404495f7787a13f88d81dfe58eaf3485fc985c02a373f7a50a76992
+Description: Go compiler, based on the GCC backend (multilib files)
+Description-md5: 3fac7a274eeb083fb89c2e26e58d453b
+
+Package: libisl-dev
+Source: isl
+Priority: optional
+Section: libdevel
+Installed-Size: 3125
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 0.15-3~14.04
+Depends: libisl15 (= 0.15-3~14.04)
+Filename: pool/main/i/isl/libisl-dev_0.15-3~14.04_amd64.deb
+Size: 541606
+MD5sum: 22f9f1d0d6e45c8432bdf68fab3792bc
+SHA1: 757e9efe16a4bf8fd4a62970c6a0771fd233ff6c
+SHA256: 4dc97277ae773e96e3f06619db9342564f87f432f7380abbb9f298c05b73564e
+Description: manipulating sets and relations of integer points bounded by linear constraints
+Description-md5: 9330fbca4463124a77a29e9568838474
+Multi-Arch: same
+
+Package: libisl-dbg
+Source: isl
+Priority: extra
+Section: debug
+Installed-Size: 4782
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 0.15-3~14.04
+Replaces: libisl-dev (<< 0.08)
+Depends: libisl15 (= 0.15-3~14.04)
+Filename: pool/main/i/isl/libisl-dbg_0.15-3~14.04_amd64.deb
+Size: 1139426
+MD5sum: c2fce9d4ebccc99352d727189c1dbc78
+SHA1: 72ee7d96f4ca97e385359c1bb550bd1bcf5cb191
+SHA256: 1126081d8bfc801b971d831be30806283ce971adf513ea1ecbc166ad08c53c86
+Description: manipulating sets and relations of integer points bounded by linear constraints
+Description-md5: eb308232fbc7715c4bcb245dd94db7e7
+Multi-Arch: same
+
+Package: libitm1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 164
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-4.9/libitm1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 29150
+MD5sum: 1314d37ac4813d2ad7e7a0fdd6a075ad
+SHA1: 47ab77c331515e5b511043f5f14e4a9569abd133
+SHA256: 1880527105bd312b939e230239fef1c96a04f7003e469a8c1d75c28d853668c0
+Description: GNU Transactional Memory Library
+Description-md5: 353dc4001cbe783e9f0a27c29f5dc3b5
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libitm1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 1092
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libitm1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libitm1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 191346
+MD5sum: 0825d6a925e6230f7395fe90f0355304
+SHA1: f35a226c2fcb4432a8e86350aeb13b1b01cc334e
+SHA256: 840be6fefcb4597ea38adb577f52be9b84a939bf1c6dbd48e3a76cc5c6072a33
+Description: GNU Transactional Memory Library (debug symbols)
+Description-md5: 41462d1cfcabe3bd47bcd28353e14894
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libobjc4
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 440
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-4.9/libobjc4_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 111916
+MD5sum: e52567d35af877de39c535a0a6fc997a
+SHA1: bbcd35c0edb4f5bb895c895c410e16958f5f7853
+SHA256: e38c00a4b076f3d81320d3ce3dc152b6bf9ddbace5b214e9a1f136489d9078a9
+Description: Runtime library for GNU Objective-C applications
+Description-md5: 30a0a695b3f5d643272b0bb547f0578c
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libobjc4-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 1058
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libobjc4 (= 4.9.2-0ubuntu1~14.04), libgcc1-dbg (>= 1:4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libobjc4-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 214254
+MD5sum: 8240c86dff6accd7ee9156b0868be238
+SHA1: 157ae1ad2bb43f5c15d9575af4f8501d7e2af96d
+SHA256: 1560362a24ff96b10104bff0f21706d13354f970537a745f8e3a29375c496750
+Description: Runtime library for GNU Objective-C applications (debug symbols)
+Description-md5: b444a22ecf71ec41ec6388bbebb0e347
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32itm1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 151
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-i386 (>= 2.3)
+Filename: pool/main/g/gcc-4.9/lib32itm1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 31146
+MD5sum: 637d09906b27ee325af8ee6a4fb0872f
+SHA1: 9fd8eecdb5248cfc22991fa8894f0cb971ea665b
+SHA256: b30e4087304d33cb3bbe6ebbb75d5190acfb66674bf1b7e028c2cb7c60e0d8ed
+Description: GNU Transactional Memory Library (32bit)
+Description-md5: dab7174f3ba5f3317b7d12b57522f05a
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32itm1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 877
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32itm1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32itm1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 183106
+MD5sum: 9afe5e3a9449b5cff622a0a2c4d47ebf
+SHA1: bc3923b2a137e04d522d3c33428da550fe5925b3
+SHA256: 792b37dfaf234e460099377d1bc53f19ffab2b93b4dc35d24271fa78750b6811
+Description: GNU Transactional Memory Library (32 bit debug symbols)
+Description-md5: 7e27c82a201c45d900c2bb92b43713b5
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32objc4
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 442
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.1.1), libc6-i386 (>= 2.11)
+Filename: pool/main/g/gcc-4.9/lib32objc4_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 117160
+MD5sum: a6353348c54cb81db77f0a0c2e030218
+SHA1: 745f960133c0e93d33ea26c93823b26a10c1d9c8
+SHA256: aad0dadd9c9bc36d7f0e60e3c8caba21c6b2d18a447e867e82e9c625fa659658
+Description: Runtime library for GNU Objective-C applications (32bit)
+Description-md5: cdc9d0be22d98fa7275d3376afaddcc0
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32objc4-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 734
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32objc4 (= 4.9.2-0ubuntu1~14.04), lib32gcc1-dbg (>= 1:4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32objc4-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 188478
+MD5sum: 43f420e5b39e78805172f38813706507
+SHA1: 2d372285b3f0e9314807fe92b12208719ad75ebe
+SHA256: 31ad7211b419f81d72c2d63bf84c3b53474b27a6fa15835eb7f0ea11f7860d69
+Description: Runtime library for GNU Objective-C applications (32 bit debug symbols)
+Description-md5: 06d620c114d0d3329b9b2be2112a0894
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: spacefm
+Priority: optional
+Section: utils
+Installed-Size: 1108
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Architecture: amd64
+Version: 1.0.0-1~ubuntu14.04.1
+Recommends: udisks2
+Replaces: spacefm (<< 0.9), spacefm-gtk3
+Suggests: udevil, eject, lsof, wget, ktsuss, gksu, sshfs
+Provides: spacefm-hal
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libffmpegthumbnailer4, libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.4), libudev1 (>= 183), libx11-6, spacefm-common (= 1.0.0-1~ubuntu14.04.1), dbus, desktop-file-utils, shared-mime-info
+Conflicts: spacefm-gtk3, spacefm-hal
+Filename: pool/main/s/spacefm/spacefm_1.0.0-1~ubuntu14.04.1_amd64.deb
+Size: 390260
+MD5sum: 86eb4baa0b2e425e2d761c4a4a82e63a
+SHA1: 58965b8ae969947df701e0e54feca31f095e8748
+SHA256: 718b88ca385b9a2242ef5596487260417dd501a9564d52c123b9a0a007c4bedc
+Description: Multi-panel tabbed file manager - GTK2 version
+Description-md5: be9e222cede7f5b0d1c564e23ad1031e
+
+Package: libx32gcc1
+Source: gcc-4.9 (4.9.2-0ubuntu1~14.04)
+Priority: optional
+Section: libs
+Installed-Size: 110
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1:4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-x32 (>= 2.16)
+Filename: pool/main/g/gcc-4.9/libx32gcc1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 38600
+MD5sum: 19e5189e42161a3b5c8e3809dd1882e3
+SHA1: 7eb523db1c07dc2058e8b8b3ab3bcc42c345db16
+SHA256: 28960825b9b9db7c6dc1b486a97937cf0ee48997f3dc1e08a35985b8fe28b089
+Description: GCC support library (x32)
+Description-md5: 23c4abc6ef9d972b6f047316897bf30d
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32gcc1-dbg
+Source: gcc-4.9 (4.9.2-0ubuntu1~14.04)
+Priority: extra
+Section: debug
+Installed-Size: 394
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1:4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32gcc1 (= 1:4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32gcc1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 84012
+MD5sum: 41dec5ad3466397d0328e99e41546ee9
+SHA1: 0ee16b177e431461ae9c98cd14bd9bc99de751c0
+SHA256: 8ae3dc92f21d8a820541bc0af1c40fb7267e5c10cf87c299f29a5b1dfa4d0f0b
+Description: GCC support library (debug symbols)
+Description-md5: d2281f8d5a2b7dae7c362df43affcb03
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32quadmath0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 275
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-x32 (>= 2.16)
+Filename: pool/main/g/gcc-4.9/libx32quadmath0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 131990
+MD5sum: 9174b351ea7aff3f2efa1a6c80f7962b
+SHA1: 64e589d061194ad98fee56abee35ee7a598ce234
+SHA256: 828694307b51a45ac70328ecd10a5d362de34ab4a443d2be406090238fa5b0ca
+Description: GCC Quad-Precision Math Library (x32)
+Description-md5: 514c6a5cffd4febce8121f2d08419504
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32quadmath0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 577
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32quadmath0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32quadmath0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 151390
+MD5sum: 0f3b4fe0e264fd1cd8dbae74820b2a92
+SHA1: 6949ffcc91b8ff3bbf155bc9932b75150247c2af
+SHA256: cd7c85da89065816c871a63ed34e9bd4d6f7d74463a9fe289130605e27cd18fa
+Description: GCC Quad-Precision Math Library (x32 debug symbols)
+Description-md5: d1cced9ca62d9dde3650384b57532901
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32gomp1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 110
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-x32 (>= 2.17)
+Filename: pool/main/g/gcc-4.9/libx32gomp1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 37120
+MD5sum: de2d6657616d46e3bb7abb8e51cbfb4a
+SHA1: dfbcfcb9aa273e6cf8f89cbf6e64d87ff1998297
+SHA256: 587e88ae122d746c3b855bae20c75d6bc27a6296023787bf4cc9f26d6eead1df
+Description: GCC OpenMP (GOMP) support library (x32)
+Description-md5: 1388436f97e9425feb598766343a05b7
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32gomp1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 336
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32gomp1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32gomp1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 85928
+MD5sum: cad421c5ecf812ab05931cf6c1e1ddff
+SHA1: 029135fe7b23fc59168ed93073ce3c8dcf6ae380
+SHA256: 80e0d598a2561740e65f6678a7a60a6c5d5abbfb7b3218a04ae610f5e49197b3
+Description: GCC OpenMP (GOMP) support library (x32 debug symbols)
+Description-md5: 7f819ff9ae10ec2d6646003e0204dc5f
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32itm1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 142
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-x32 (>= 2.16)
+Filename: pool/main/g/gcc-4.9/libx32itm1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 28660
+MD5sum: d0474795925e38c06f1fbcafc674246c
+SHA1: ef832d80f25fed291fe567dfcbb756eba898b13b
+SHA256: 6b5340a99fd93d82425dc4453ad9f69a1b57bad55389370c27b289849cd88814
+Description: GNU Transactional Memory Library (x32)
+Description-md5: 60c3549c857ee22163b3a82b265880de
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32itm1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 878
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32itm1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32itm1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 181304
+MD5sum: defb822dbaea883ab5c5e78a1b3546fb
+SHA1: 86b20fe72f966a06f398be4857d2238e2d2255f5
+SHA256: 446088ab1fa22bb2102bd8f0dc7b55bbde0dca1a1cd4e5ea1f1dd82673b0e131
+Description: GNU Transactional Memory Library (x32 debug symbols)
+Description-md5: 139a395a1e47ba8b13f22f43588f31ae
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32objc4
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 364
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.1.1), libc6-x32 (>= 2.16)
+Filename: pool/main/g/gcc-4.9/libx32objc4_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 106102
+MD5sum: 07dc09c2a6bcfe2507a21e08a4acf4fd
+SHA1: 3c9f85a0a1a89bd4d4eb013d88d2d4cbd71b3045
+SHA256: 18006c8ef653612efb8a5be46552d7eea5184222fb0544004be3528492d24749
+Description: Runtime library for GNU Objective-C applications (x32)
+Description-md5: e253306fc795d9cc9e7c2acac0d2ad1b
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32objc4-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 792
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32objc4 (= 4.9.2-0ubuntu1~14.04), libx32gcc1-dbg (>= 1:4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32objc4-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 203342
+MD5sum: 431a48c0983378654df87d416ee6febe
+SHA1: dbceac042ce1d4cc47c0a689151bc288b20d5f38
+SHA256: 9337753eafe14967142cca4fdcf2fbf98299f7ab9c9ffc4de0127e6552baa8a1
+Description: Runtime library for GNU Objective-C applications (x32 debug symbols)
+Description-md5: 15ac2bbe50562f8e9e528e6d5f6f1024
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32stdc++6
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 930
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32gcc1 (>= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.1.1), libc6-x32 (>= 2.17)
+Filename: pool/main/g/gcc-4.9/libx32stdc++6_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 244560
+MD5sum: 7b7dd6c4fa4c2a115d26129843952cad
+SHA1: a501c1891dcac01edfb79fef8f9902fdc91eb591
+SHA256: 7d5259ae33cfd4b0a32ef8c9fc04496f5e586860c6f297524d1ce6c77d6ac84f
+Description: GNU Standard C++ Library v3 (x32)
+Description-md5: f336833aedca4cda1d9923ce79172164
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32gfortran3
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 1138
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.1.1), lib32quadmath0 (>= 4.6), libc6-x32 (>= 2.17)
+Filename: pool/main/g/gcc-4.9/libx32gfortran3_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 252454
+MD5sum: 3e1de0e8275cacb05f1f62c0e63c5103
+SHA1: 2c06c9b0f76475788ca0d416a2bbb0ab814d994a
+SHA256: 6ff00f2c921362fe3194be8543135793e625634773df8b42be10c24981552ce6
+Description: Runtime library for GNU Fortran applications (x32)
+Description-md5: 3c011e928f9c344ce5ade56af0ec77b2
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32gfortran3-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 3255
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32gfortran3 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32gfortran3-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 581698
+MD5sum: 5c417a6c1b84c82a4994067a51915de3
+SHA1: 7404f2836116d866bab5104af87d9070d3c86937
+SHA256: 9e691a1ecb5ef038b7beef92a3992f0acf519c28a462a0cf2bc3cd14b1c25e70
+Description: Runtime library for GNU Fortran applications (x32 debug symbols)
+Description-md5: 10f29f1b5242ebba520971f18415252b
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libatomic1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 58
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.14)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-4.9/libatomic1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 8906
+MD5sum: deccfa564941bbc1e811099e44889f7c
+SHA1: b9ea9040e6ff3bdf87a8e13dca365f82977ce7cc
+SHA256: da9290172ba89c12526d55176af86128c552b6dfe0229dbfa283ed8e3302011f
+Description: support library providing __atomic built-in functions
+Description-md5: 16938852526fc26bdbcb46c18435ed08
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libatomic1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 146
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libatomic1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libatomic1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 17346
+MD5sum: b3fed69f28828b1006ad1ad6957448a8
+SHA1: d2e947674fa632bc24514f8bb7ef3c538a431ebe
+SHA256: 1f3bc042b489109adb8b0b32cb013e894876e1ff04d2fa483b49a376488d2f6d
+Description: support library providing __atomic built-in functions (debug symbols)
+Description-md5: 26d76486cdd4f1973b721c8f322e9e61
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32atomic1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 49
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-i386 (>= 2.4)
+Filename: pool/main/g/gcc-4.9/lib32atomic1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 8612
+MD5sum: 7f99715a9f453ab0feb208c69d8ba0b0
+SHA1: a47165627f8af98c0e3581c376459d8344d5a62c
+SHA256: 71f68c79e98b79805b81d6b9755410d51d7c9f8b6992220e64b4d239d38dcca1
+Description: support library providing __atomic built-in functions (32bit)
+Description-md5: 4b9cd7e59833a54167ec848b4c3d9e48
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32atomic1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 111
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32atomic1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32atomic1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 14558
+MD5sum: d9bd70911f475fa2bd9274c6102121a4
+SHA1: 9b399e64bd3f4a36bef5ac6d3a1d60ad78ce3fb6
+SHA256: 44400a16a1c8a972adcb50e7f9ce3732dd1f8efcd8cd1676a1cd94fca0893c2f
+Description: support library providing __atomic built-in functions (32 bit debug symbols)
+Description-md5: 865d3c01985d4c1517371f8f439ecadf
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32atomic1
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 54
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6-x32 (>= 2.16)
+Filename: pool/main/g/gcc-4.9/libx32atomic1_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 8948
+MD5sum: 50dfa22400a2c2c8db558635b1be7152
+SHA1: 6592419212d2d91a68233b5e572d48710e45e185
+SHA256: 6cbd9dd33d30d57a26f868ec340a5c930d459b809f0b5ff89fb6f9c74c4234d3
+Description: support library providing __atomic built-in functions (x32)
+Description-md5: 17429d2d39217f0a95507decf171c10f
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32atomic1-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 125
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32atomic1 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32atomic1-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 16766
+MD5sum: 25ffc099787aae852f3a3d57684c1be0
+SHA1: 0fb4cf32e0d7f0214086b03a8098c269705d8767
+SHA256: cfaa97f04b2dab590173f9c6dac7bfad30d0fd6a5b705d3b6337e0b45fdbbdb1
+Description: support library providing __atomic built-in functions (x32 debug symbols)
+Description-md5: a1d046f7c7bf1745f37238262b4d1081
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libtsan0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 770
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-4.9/libtsan0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 211376
+MD5sum: 8cd4df216486ee978e2657ef309a7b4b
+SHA1: 613a21b364dc21126079b3e667dd40c21b89ca7f
+SHA256: 34384f375e62b3986d801be9ce19864b3e71a46410798878bd5f64d016dc3603
+Description: ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
+Description-md5: 750c144e4cc79bcf76c58f43c882ff70
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libtsan0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 3493
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libtsan0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libtsan0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 752536
+MD5sum: 5b065ec8e9a5c1a0db0e59af8e29afd1
+SHA1: b09f1d1af322f8c3181dd858a1d01ffd6cc3cf14
+SHA256: cc9c45710e4b5778ead1651b5a9e79d3b457868026ba02486d04e288ebf5be66
+Description: ThreadSanitizer -- a Valgrind-based detector of data races (debug symbols)
+Description-md5: 12e218524cfc4fca62857d3e660e0018
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: spacefm-gtk3
+Source: spacefm
+Priority: optional
+Section: utils
+Installed-Size: 1099
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Architecture: amd64
+Version: 1.0.0-1~ubuntu14.04.1
+Recommends: udisks2
+Replaces: spacefm, spacefm-gtk3
+Suggests: udevil, eject, lsof, wget, ktsuss, gksu, sshfs
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libffmpegthumbnailer4, libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), libstartup-notification0 (>= 0.4), libudev1 (>= 183), libx11-6, spacefm-common (= 1.0.0-1~ubuntu14.04.1), dbus, desktop-file-utils, shared-mime-info
+Conflicts: spacefm, spacefm-hal
+Filename: pool/main/s/spacefm/spacefm-gtk3_1.0.0-1~ubuntu14.04.1_amd64.deb
+Size: 384098
+MD5sum: d6eb6650499bde5566632878b675e2f6
+SHA1: 6fe694b6cdba9b269f1b7b11d0674eb5cce23f96
+SHA256: 946015e2ff97c214c73f46fba0dafcb87a418dd69e5f067584ffb75c87ebf1b0
+Description: Multi-panel tabbed file manager - GTK3 version
+Description-md5: f2c573502cee17440115c318f4119a3f
+
+Package: spacefm-common
+Source: spacefm
+Priority: optional
+Section: utils
+Installed-Size: 3341
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
+Architecture: all
+Version: 1.0.0-1~ubuntu14.04.1
+Recommends: spacefm | spacefm-gtk3, hicolor-icon-theme | faenza-icon-theme
+Replaces: spacefm (<< 0.9)
+Filename: pool/main/s/spacefm/spacefm-common_1.0.0-1~ubuntu14.04.1_all.deb
+Size: 619818
+MD5sum: 185fe27ef389ccb97624691002b37938
+SHA1: 47c90bdfe7913f1d0e0009fd4f77f05fc9d8af3b
+SHA256: d8d8b30c8e63e7501035f36f9e9b21337b91ad6ac3e7a8e2728b0156f3e4248e
+Description: Multi-panel tabbed file manager - common files
+Description-md5: 573d3dd8399a963e00973f505c5054e7
+
+Package: liblsan0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 260
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-4.9/liblsan0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 92762
+MD5sum: b6a09c32cb0d6684e464329196dc6bfa
+SHA1: 457ffe4cf680b29b0486258e1e8b1eb3349ecf41
+SHA256: efae37de8a72138e4f5a410e067bba99d7b7a28b0117ac2f0014f53cd8973315
+Description: LeakSanitizer -- a memory leak detector (runtime)
+Description-md5: fd77936d8cda7d6af8bc33d6f395c678
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: liblsan0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 1292
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), liblsan0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/liblsan0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 303852
+MD5sum: 28ca5bc5d65b03a68b5735db85013c25
+SHA1: d8ece319a6e3e8ba0d142819c54097d1e7493a58
+SHA256: dc369fe03112c1b28b530f1f9db5523fea8e92dba071676606c50f0ee7e2b666
+Description: LeakSanitizer -- a memory leak detector (debug symbols)
+Description-md5: 542bbc8ec886b845fc7ef771c238206f
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libubsan0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 237
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-4.9/libubsan0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 82634
+MD5sum: 4f6ba9327c53bbebc7f99ebac584f1f8
+SHA1: fa4b1232ff0d905a70c889a5709ced7510439201
+SHA256: fd35f2a3fa75d8e8763af04be5dadf70e515799dbb82c90362c679fcd741e8f2
+Description: UBSan -- undefined behaviour sanitizer (runtime)
+Description-md5: 0d50b6d1808d18442db720f04627b846
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libubsan0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 1090
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libubsan0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libubsan0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 263936
+MD5sum: d4dc30acb8bd1d2551c67318ecd3fc26
+SHA1: 8cfc3cd0cb268db171d8c6c805355b08b29b5b26
+SHA256: 9b8208c34f4408e4059d0bf0ca3a805b8523b5903a150f724cd1cb3e5096b03a
+Description: UBSan -- undefined behaviour sanitizer (debug symbols)
+Description-md5: 659cb3d2af748e8f726465d97392ba98
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32ubsan0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 252
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.1.1), lib32stdc++6 (>= 4.1.1), libc6-i386 (>= 2.4)
+Filename: pool/main/g/gcc-4.9/lib32ubsan0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 88512
+MD5sum: 9028e3ba9ddf9608c33e5d662c9c8b38
+SHA1: ff76f4d1baedc0576b9529c03f7b931ab1afc1c8
+SHA256: 90eef0c25a6a8ceaa41eddbe6a0f2706619425f45c69f09569ae7a9de9309434
+Description: UBSan -- undefined behaviour sanitizer (32bit)
+Description-md5: 00c57d4ccf298e90fae6bd6acdfad7ab
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32ubsan0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 722
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32ubsan0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32ubsan0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 214652
+MD5sum: 0f995f652bdc85be94110be065c8b2ac
+SHA1: c1d775e3773a5f911f363ed46c72f465473a4259
+SHA256: 58ac71a4e545e63b8bf764d76c69bb5984406cf42d80fd2741042d8e93301037
+Description: UBSan -- undefined behaviour sanitizer (32 bit debug symbols)
+Description-md5: 9f7135992c8b7133983b2e7952f67e04
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32ubsan0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 221
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.1.1), lib32stdc++6 (>= 4.1.1), libc6-x32 (>= 2.16)
+Filename: pool/main/g/gcc-4.9/libx32ubsan0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 82300
+MD5sum: 5d1e82f66f485e8ed72bdbccd04997b4
+SHA1: 36644982bdf603aff3647b5c28cabacdba118b2f
+SHA256: b45213f67652a797ed7fcf9a2d2891f6bc00e9229797b93feb9a70aba2763e67
+Description: UBSan -- undefined behaviour sanitizer (x32)
+Description-md5: 1e3c22c974d49dfa0d90d25dc725cf74
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32ubsan0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 863
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32ubsan0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32ubsan0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 256178
+MD5sum: 384f1e4250c1f9cc32db920b753d656f
+SHA1: 337112372ca69cdc33181738f0ba8eb60c5a532b
+SHA256: c8bc5e35e804b2453e7052684c7419aa4bf14de931ccceae7841b491a522d0c7
+Description: UBSan -- undefined behaviour sanitizer (x32 debug symbols)
+Description-md5: d6c2f65b1df2a03b9c7b4e20d596d17e
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libcilkrts5
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 156
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libc6 (>= 2.14), libgcc1 (>= 1:4.8), libstdc++6 (>= 4.1.1)
+Pre-Depends: multiarch-support
+Filename: pool/main/g/gcc-4.9/libcilkrts5_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 39950
+MD5sum: 94ca35a4ebee637d8e3a63e522363e56
+SHA1: e99fe6ede77d6103e169bffe9f4ef15d1e9651e8
+SHA256: 551e171a1b70071188bc01363751877fd492ef8e4134d35c4216522d8d529c57
+Description: Intel Cilk Plus language extensions (runtime)
+Description-md5: ee1eb21d65e9b0336fe6bb9239b54288
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libcilkrts5-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 445
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libcilkrts5 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libcilkrts5-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 106044
+MD5sum: 807b13ee248e61d0dd415de95ff677ca
+SHA1: 89084de16229968528debda843d895f9d79474f4
+SHA256: f4cf1181b8f28bac1b3c740e8096b0b88e3d9eba7af869229239b6916ddc5532
+Description: Intel Cilk Plus language extensions (debug symbols)
+Description-md5: b47b64f33229d8794aaceff5f0bba7d7
+Multi-Arch: same
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32cilkrts5
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 143
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.8), lib32stdc++6 (>= 4.1.1), libc6-i386 (>= 2.4)
+Filename: pool/main/g/gcc-4.9/lib32cilkrts5_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 42860
+MD5sum: 90ba0211900c6dc2ba6072c38515a312
+SHA1: 93abf798c760bf1f480a3ea78b275cc7c6c27704
+SHA256: 34f69e18e5b0dba2c9e4d9774a879de5b33f4f63cf608b3c394943c00c419130
+Description: Intel Cilk Plus language extensions (32bit)
+Description-md5: cfc0a1e0e2c2fe8e45700724c806a987
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32cilkrts5-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 343
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32cilkrts5 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32cilkrts5-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 93388
+MD5sum: 7188f900e7374ea78404675ec0d2849c
+SHA1: ca70aeee941feec62b4fb0c3c5daf545fa1d8410
+SHA256: 56db42e97b4b372d0bcdb33282a4e80a5386cb4fc54a798cea88013ef4e14d71
+Description: Intel Cilk Plus language extensions (32 bit debug symbols)
+Description-md5: 302371f2bf006ba155500edad2c90bb0
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32cilkrts5
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 132
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32gcc1 (>= 1:4.8), lib32stdc++6 (>= 4.1.1), libc6-x32 (>= 2.16)
+Filename: pool/main/g/gcc-4.9/libx32cilkrts5_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 39332
+MD5sum: 057fd1a8168839a1db0fcfe21bb1295f
+SHA1: 0466f58264100a22009e6f6885bbd3a075ae524e
+SHA256: dc78160a4213aef67c9fd3385c7e2f78f7d9cc77b335fd6b91023095573d46a7
+Description: Intel Cilk Plus language extensions (x32)
+Description-md5: be40389da3c3f2332e113477a1f68923
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32cilkrts5-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 378
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32cilkrts5 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32cilkrts5-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 104210
+MD5sum: 36b4d07a01605c52bea6b499bbfe5b74
+SHA1: 15ba3273c8f9f2aa74100ce7cef3d6349fb8ce23
+SHA256: 912e8605fcff10ca0f7acd5352992bb5b8db78d60a0d497d5b46e1fbcef0cbf0
+Description: Intel Cilk Plus language extensions (x32 debug symbols)
+Description-md5: 0b84023b44919fc8802e01e3945fa7d3
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-4.9-source
+Source: gcc-4.9
+Priority: optional
+Section: devel
+Installed-Size: 74894
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: make, autoconf2.64, quilt, patchutils, gawk
+Filename: pool/main/g/gcc-4.9/gcc-4.9-source_4.9.2-0ubuntu1~14.04_all.deb
+Size: 72416778
+MD5sum: 5cd0c25861c8d2c3703a0ecc406ac8ec
+SHA1: 2b7ae4695ece36ea367948a375bd614ed21b3425
+SHA256: 715c7f329f54e1918d19e4e2c97b7a895330dd3f09af224ffc0a517fe4bfcf60
+Description: Source of the GNU Compiler Collection
+Description-md5: cb00049993a8c14b73bb041c050eb8c5
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: cpp-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 554
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), dpkg (>= 1.15.4) | install-info
+Filename: pool/main/g/gcc-4.9/cpp-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 177208
+MD5sum: 08ff1dc310e743e30f2afa935a92ca74
+SHA1: 980268d33338ac8d1111eb0c602b267e5ce22069
+SHA256: 291185761ded29573c3f47fa6df60c5beac56ba314e51a5e2fa35a45d6e927d4
+Description: Documentation for the GNU C preprocessor (cpp)
+Description-md5: 22a9ba311e91d8d744a9e4df2030d2bf
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gccgo-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 147
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), dpkg (>= 1.15.4) | install-info
+Filename: pool/main/g/gcc-4.9/gccgo-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 48782
+MD5sum: 162e42eee8ec19f2622d6cc4c13a3c01
+SHA1: 4479050c5400e7cb5bb9a79fe746789e16441205
+SHA256: 467acbdd262fc0836b8c8958852eeb83d2e75ee7a961b2d2c11e5e3d60ef0777
+Description: Documentation for the GNU Go compiler (gccgo)
+Description-md5: 76326180b2469131aa9547f46e5b3105
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcj-4.9-jre-lib
+Source: gcc-4.9
+Priority: optional
+Section: java
+Installed-Size: 11193
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), libgcj15 (>= 4.9)
+Filename: pool/main/g/gcc-4.9/gcj-4.9-jre-lib_4.9.2-0ubuntu1~14.04_all.deb
+Size: 10350068
+MD5sum: ea45a12e54daebe7d50e70a3f7b5d181
+SHA1: 1c99d86239d304acfcdf0b0e1f876e1c8997586b
+SHA256: e2e8c9a55ddfc7fda2a580181d376ef4f40d590c70ed6aebf27668f31f801a74
+Description: Java runtime library for use with gcj (jar files)
+Description-md5: c6c8d4fc017cdac424e562b583372f96
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcj-4.9-source
+Source: gcc-4.9
+Priority: optional
+Section: java
+Installed-Size: 12667
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), gcj-4.9-jdk (>= 4.9)
+Filename: pool/main/g/gcc-4.9/gcj-4.9-source_4.9.2-0ubuntu1~14.04_all.deb
+Size: 11662536
+MD5sum: 5205700b4d6f1843ca2dbe01e7a57f9c
+SHA1: a0903f7a67f0e6282438e84e645d012748d8f623
+SHA256: 0e088219ada77aec40d6d968c5c71462e0c08a6babd08d62fbcab333ee4ae6bc
+Description: GCJ java sources for use in IDEs like eclipse and netbeans
+Description-md5: 4c55da0bb9881014d9bba36bde1b8806
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libstdc++-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 98967
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9)
+Conflicts: libstdc++-4.8-doc, libstdc++5-3.3-doc, libstdc++5-doc, libstdc++6-4.0-doc, libstdc++6-4.1-doc, libstdc++6-4.2-doc, libstdc++6-4.3-doc, libstdc++6-4.4-doc, libstdc++6-4.5-doc, libstdc++6-4.6-doc, libstdc++6-4.7-doc, libstdc++6-doc
+Filename: pool/main/g/gcc-4.9/libstdc++-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 9794408
+MD5sum: be8b7a1a995d75a43e63fd119956b674
+SHA1: 687e28ea8c057f02ba43615e919551dbc2c10e9e
+SHA256: 82f532999e92f8b1febaf31729ce826ea9a49ab3865ffb43a1fa95b93d8fd1f9
+Description: GNU Standard C++ Library v3 (documentation files)
+Description-md5: 1a4b88b8d9f96dfb2ac2be1049b4db01
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gfortran-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 1420
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (>= 4.9), dpkg (>= 1.15.4) | install-info
+Filename: pool/main/g/gcc-4.9/gfortran-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 306328
+MD5sum: 2a9231956e9d886ac5b566e6ccedc20e
+SHA1: 16f9af750dd9e61f61196d4322f8da283e6ec716
+SHA256: 15ef1533c8b86919cf6e5d837d669fd79288a957309120fe6a1ab039895b7893
+Description: Documentation for the GNU Fortran compiler (gfortran)
+Description-md5: 17a01a9ada93e104865a01e6615e2401
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-4.9-doc
+Source: gcc-4.9
+Priority: optional
+Section: doc
+Installed-Size: 8980
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Replaces: gcc (<= 2.7.2.3-4.3), gcc-docs (<< 2.95.2)
+Depends: gcc-4.9-base (>= 4.9), dpkg (>= 1.15.4) | install-info
+Conflicts: gcc-docs (<< 2.95.2)
+Filename: pool/main/g/gcc-4.9/gcc-4.9-doc_4.9.2-0ubuntu1~14.04_all.deb
+Size: 2169904
+MD5sum: 2a33ed2872912f0d68b4513f631c5d8e
+SHA1: 7c9679cb8e94954ba5e45d934306b4a7e0fb867c
+SHA256: d2dd47fecef3534fc45b34bdac08bca3a9a7f635c0ee556f81c637565f95913d
+Description: Documentation for the GNU compilers (gcc, gobjc, g++)
+Description-md5: bf320d6d806b62ff03b567626d36b1fb
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: gcc-4.9-locales
+Source: gcc-4.9
+Priority: optional
+Section: devel
+Installed-Size: 9174
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 4.9.2-0ubuntu1~14.04
+Recommends: gcc-4.9 (>= 4.9)
+Depends: gcc-4.9-base (>= 4.9), cpp-4.9 (>= 4.9)
+Filename: pool/main/g/gcc-4.9/gcc-4.9-locales_4.9.2-0ubuntu1~14.04_all.deb
+Size: 1443426
+MD5sum: 160d92fb3697fc4bc845d2b6c0292169
+SHA1: f1e598660b24ee9af6c56f2ef18ae0c470fdee56
+SHA256: 5ca41f5a82cbe1189dd792fb1a898e4abfb0424db04698cc261ec9e9ccca67c4
+Description: GCC, the GNU compiler collection (native language support files)
+Description-md5: eb5e72cb380341d4ed2ad2d24c34f31d
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32lsan0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 25
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32lsan0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 888
+MD5sum: 7c2bfdb72606dc5d877bb4d0837be6a5
+SHA1: cbb8ca392f760cddf426026337fd27e78b345bd9
+SHA256: 5830bb54d649353fc865574b785af4d6cf5243475da582d0f8c4aaed1c2b27e7
+Description: LeakSanitizer -- a memory leak detector (32bit)
+Description-md5: 52a43090bbc827c21745756d96dedd88
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: lib32lsan0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 21
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), lib32lsan0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/lib32lsan0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 900
+MD5sum: c2a1ed8d31c11982f0202633a40e250b
+SHA1: 7ddc3ca10c58fa62c6393f61cd5cf907ccd3d41a
+SHA256: 4f5b6c11a715e2a11d93df6db176fef8fc6ee4a8f9fd125190e552b03631cc4a
+Description: LeakSanitizer -- a memory leak detector (32 bit debug symbols)
+Description-md5: 175b2d13cc98b45009de43a6e5844d30
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32lsan0
+Source: gcc-4.9
+Priority: optional
+Section: libs
+Installed-Size: 25
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32lsan0_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 894
+MD5sum: 83628ffb62f05676e6512b73da78023d
+SHA1: c6579d56c22b74d17e430c9c4ff623d330b8bc47
+SHA256: 9da2f3757eae7ac4c2ee594ab018f3410f4c4b60a04b0e637b882e2f07d6660d
+Description: LeakSanitizer -- a memory leak detector (x32)
+Description-md5: 4d2c1632eadcc210b58e56903d658577
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: libx32lsan0-dbg
+Source: gcc-4.9
+Priority: extra
+Section: debug
+Installed-Size: 21
+Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 4.9.2-0ubuntu1~14.04
+Depends: gcc-4.9-base (= 4.9.2-0ubuntu1~14.04), libx32lsan0 (= 4.9.2-0ubuntu1~14.04)
+Filename: pool/main/g/gcc-4.9/libx32lsan0-dbg_4.9.2-0ubuntu1~14.04_amd64.deb
+Size: 902
+MD5sum: 3104c6fa6c08ef38af514fbc9447c062
+SHA1: 82baa5c9b65ef60dc55509cfe19bc6799e58af94
+SHA256: d92b367447197f4f2df7bf7cbfdb2771f27229e255ea0510d0cf695d203ebef1
+Description: LeakSanitizer -- a memory leak detector (x32 debug symbols)
+Description-md5: fe73506107cfca24912b8a6d8b468a1f
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: obsession
+Priority: extra
+Section: x11
+Installed-Size: 702
+Maintainer: Fabien Givors <f+debian@chezlefab.net>
+Architecture: amd64
+Version: 20140608-2~ubuntu14.04.1
+Recommends: gnome-icon-theme
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.26.0), libgtk2.0-0 (>= 2.14.0)
+Filename: pool/main/o/obsession/obsession_20140608-2~ubuntu14.04.1_amd64.deb
+Size: 49788
+MD5sum: 1aca4d7548a2d0f03c4da66a9e192d60
+SHA1: f8c2ce90a52e8282e9c43e42687c466cad630b7b
+SHA256: 45f9c3756a202c7fe8b79b36e82f94506e74f76e0ec40f501863eef85efcad55
+Description: Session management helpers for lightweight desktop environments
+Description-md5: 2c7f2f2658bee69312bf5d51ea07433c
+
+Package: libisl15
+Source: isl
+Priority: optional
+Section: libs
+Installed-Size: 1651
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Architecture: amd64
+Version: 0.15-3~14.04
+Depends: libc6 (>= 2.14), libgmp10
+Pre-Depends: multiarch-support
+Filename: pool/main/i/isl/libisl15_0.15-3~14.04_amd64.deb
+Size: 507760
+MD5sum: 64a0d453f65f6304559fe3f31c507f5c
+SHA1: c7c36b534433d0f7cfcb5d6a9c024b19463e6896
+SHA256: 5de3691d644e23911203014019ea192558e44e1ed2ff19d5f38ab287b4e2118f
+Description: manipulating sets and relations of integer points bounded by linear constraints
+Description-md5: b718cf54a9174f62d55d1d78f6212d22
+Multi-Arch: same
+
